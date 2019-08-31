@@ -40,3 +40,11 @@ Your grade for the progress updates is based on a 5 minute presentation in class
 Formatting guidelines: up to 8 pages, double column, <ACM Proceedings format>(https://www.acm.org/publications/proceedings-template). In case you need more than 8 pages, consider splitting your material in a main paper and an appendix.
 
 ### Individual report
+
+(1 upload per student) You will also submit a brief individual report (at most one page), which will:
+
+- Describe the parts of the project you worked on (which machine learning methods you applied, which preprocessing steps you performed on the data, which parts of the term paper you wrote, who you worked with on what parts, etc.) and what parts of the project your teammates worked on.
+
+- What you learned from the project.
+
+The purpose of the individual report is to facilitate fair grading and to allow the instructor to understand well what you learned from the project. Submit a soft copy on the course canvas.
