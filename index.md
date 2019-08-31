@@ -1,5 +1,5 @@
 
-| [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Quizes](quizes.md) | 
+| [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Quizes](quizes.md) | [Contact](contact.md) |
 
 ## Course Description
 
