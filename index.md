@@ -39,4 +39,4 @@ Basic knowledge of statistics, and Python programming is encouraged.
 
 - Foster Provost and Tom Fawcett, Data Science for Business: What You Need to Know about Data Mining and Data-Analytic Thinking, O'Reilly Media; 1st edition (2013)
 
-- A. Rajaraman, J. Leskovec and J. Ullman, <Mining of Massive Datasets>(http://infolab.stanford.edu/~ullman/mmds/book.pdf), Cambridge University Press, 3rd version.
+- A. Rajaraman, J. Leskovec and J. Ullman, [Mining of Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf), Cambridge University Press, 3rd version.
