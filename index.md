@@ -1,12 +1,12 @@
 
 | [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Quizes](quizes.md) | 
 
-# Course Description
+## Course Description
 
 
 
-# Room & Time
+## Room & Time
 
 
 
-# Reading 
+## Reading 
