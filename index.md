@@ -21,6 +21,16 @@
 
 Basic knowledge of statistics, and Python programming is encouraged.
 
+## Grading
+
+- The project counts for **35%** of the final grade. The project will be graded out of a total of 35 points.
+
+- The assignments, and quizes counts for **25%** of the final grade. 
+
+- The mid-term counts for **15%** of the final grade. 
+
+- The final exam conunts for **25%** of the final grade. 
+
 ## Reading 
 
 - Jake VanderPlas, <Python Data Science Handbook>(https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf), O'Reilly Media; 1 edition (2016) - Free book
