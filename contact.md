@@ -7,6 +7,7 @@
 
 - [Kris Sankaran](http://krisrs1128.github.io/personal-site/) 
   
+ 
  ### Teaching Assistants
  
  - Dmitriy Serdyuk 
