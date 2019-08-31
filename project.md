@@ -5,6 +5,10 @@
 
 The goal of this project is to build a system for automatic recognition of the age, gender, and personality of social media users. When given as input users' genderate content (e.g., text, image and relations), this system should return as output the age, gender and personality trait scores of that user.
 
+## Scoreboard
+
+To observe the score of your team, check the [scoreboard](scoreboard.md).
+
 ## Project Grading
 
 The project counts for 35% of your final grade.  The project will be graded out of a total of 35 points as follows:
