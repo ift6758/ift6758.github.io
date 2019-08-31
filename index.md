@@ -17,6 +17,10 @@
 
 - Tuesday, 12:30PM-4:30PM, B3250 Pavillon 3200 J-Brilliant, Université de Montréal
 
+## Prerequisites
+
+Basic knowledge of statistics, and Python programming is encouraged.
+
 ## Reading 
 
 - Jake VanderPlas, <Python Data Science Handbook>(https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf), O'Reilly Media; 1 edition (2016) - Free book
