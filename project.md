@@ -7,7 +7,7 @@ The goal of this project is to build a system for automatic recognition of the a
 
 ## Scoreboard
 
-To observe the score of your team, check the [scoreboard](scoreboard.md).
+To check the score of your team, check the [scoreboard](scoreboard.md).
 
 ## Project Grading
 
