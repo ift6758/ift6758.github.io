@@ -33,7 +33,7 @@ Basic knowledge of statistics, and Python programming is encouraged.
 
 ## Reading 
 
-- Jake VanderPlas, <Python Data Science Handbook>(https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf), O'Reilly Media; 1 edition (2016) - Free book
+- Jake VanderPlas, [Python Data Science Handbook](https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf), O'Reilly Media; 1 edition (2016) - Free book
 
 - Russell Jurney, Agile Data Science 2.0: Building Full-Stack Data Analytics Applications with Spark, O'Reilly Media; 1st edition (2017).
 
