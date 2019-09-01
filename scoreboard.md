@@ -2,7 +2,9 @@
 | [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Quizes](quizes.md) | [Project](project.md)| [Contact](contact.md) |
 
 
-## Scorebord
+# Scorebord
+
+### Week 1
 
 |        | Gender (acc) | Age (acc) | EXT (RMSE) | OPN (RMSE) | AGR (RMSE) | NEU (RMSE) | CON (RMSE) |
 |--------|--------------|----------:|------------|------------|------------|------------|------------|
