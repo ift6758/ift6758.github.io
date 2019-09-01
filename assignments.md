@@ -2,7 +2,7 @@
 
 ## Student Introduction Survey
 
-Please fill the [suvery](https://forms.gle/2iQKQrGpcXnXMsQe9) by **September 8, 2019**.
+Please fill the [suvery](https://forms.gle/2iQKQrGpcXnXMsQe9), due **September 8, 2019**.
 
 
 ## Posted Assignments
