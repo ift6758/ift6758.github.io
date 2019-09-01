@@ -9,3 +9,11 @@ Please fill the [suvery](https://forms.gle/2iQKQrGpcXnXMsQe9) by **September 8, 
 
 
 ## Quizes
+
+- Quize 1, due 
+
+
+- Quize 2, due 
+
+
+- Quize 3, due 
