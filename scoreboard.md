@@ -6,7 +6,7 @@
 
 ### Week 1
 
-|        | Gender (acc) | Age (acc) | EXT (RMSE) | OPN (RMSE) | AGR (RMSE) | NEU (RMSE) | CON (RMSE) |
+|        | Gender (ACC) | Age (ACC) | EXT (RMSE) | OPN (RMSE) | AGR (RMSE) | NEU (RMSE) | CON (RMSE) |
 |--------|--------------|----------:|------------|------------|------------|------------|------------|
 | Team 1 |              |           |            |            |            |            |            |
 | Team 2 |              |           |            |            |            |            |            |
