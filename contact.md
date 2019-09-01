@@ -8,12 +8,12 @@
 - [Kris Sankaran](http://krisrs1128.github.io/personal-site/) 
 
  
- ## Teaching Assistants
+## Teaching Assistants
  
- - Dmitriy Serdyuk 
+- Dmitriy Serdyuk 
  
- - Arian Hosseini
+- Arian Hosseini
  
- - Pravish Sainath
+- Pravish Sainath
  
  
