@@ -8,13 +8,9 @@ Welcome to Data Science IFT6758 Graduate level course on introduction to data sc
 The material of the course will integrate the five key facets of an investigation using data:
 
 - data collection ‐ data wrangling, cleaning, and sampling 
-
 - data management ‐ accessing data quickly and reliably
-
 - exploratory data analysis – generating hypotheses and building intuition
-
 - prediction or statistical learning
-
 - communication – summarizing results through visualization, stories, and interpretable summaries
 
 In this course, we focus on statistical methods and introduce techniques in different domains to make you familiar with various type of data. Our goal is to educate you to become  not only knowledgable and also responsible data scientist by the end of this course!
