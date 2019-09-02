@@ -37,13 +37,12 @@ Basic knowledge of statistics, and Python programming is encouraged.
 
 ## Grading
 
-- The project counts for **35%** of the final grade. The project will be graded out of a total of 35 points.
+Your final score for the course will be computed using the following weights:
 
-- The assignments, and quizes counts for **25%** of the final grade. 
-
-- The mid-term counts for **15%** of the final grade. 
-
-- The final exam conunts for **25%** of the final grade. 
+- Project counts:**35%** 
+- Assignments: **25%** 
+- Mid-term: **15%**
+- Final:**25%** 
 
 ## Reading 
 
