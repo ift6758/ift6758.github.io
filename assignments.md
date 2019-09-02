@@ -1,5 +1,7 @@
 | [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
 
+Assignments are count for 25% of your final grade. Most of the assignments are graded with [gradescope](https://www.gradescope.com/). You need to create an account and add yourself to the course with the entry code: MPKB3Y.
+
 ## Student Introduction Survey
 
 Please fill the [suvery](https://forms.gle/2iQKQrGpcXnXMsQe9), due **September 8, 2019**.
