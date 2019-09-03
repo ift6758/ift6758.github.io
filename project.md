@@ -41,7 +41,7 @@ Your grade for the progress updates is based on a 5 minute presentation in class
 
 -  Conclusion and future work: briefly summarize your results and list opportunities for future research that seem promising to you but for which you did not find the time within this quarter.
 
-Formatting guidelines: up to 8 pages, double column, <ACM Proceedings format>(https://www.acm.org/publications/proceedings-template). In case you need more than 8 pages, consider splitting your material in a main paper and an appendix.
+Formatting guidelines: up to 8 pages, double column, [ACM Proceedings format](https://www.acm.org/publications/proceedings-template). In case you need more than 8 pages, consider splitting your material in a main paper and an appendix.
 
 ### Individual report
 
