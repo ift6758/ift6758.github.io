@@ -29,26 +29,27 @@ Assignments are count for 25% of your final grade. Most of the assignments are g
 
 ## Lab Materials
 
-- Week 1: Data Science Class: Lab Introduction, September 3, [slides](lab_materials/Data%20science%20class%20lab%20intro.pdf)
+1. Week 1 (September 3): 
+- Data Science Class: Lab Introduction, [slides](lab_materials/Data%20science%20class%20lab%20intro.pdf)
 
-- Week 2
+2. Week 2
 
-- Week 3
+3. Week 3
 
-- Week 4
+4. Week 4
 
-- Week 5
+5. Week 5
 
-- Week 6
+6. Week 6
 
-- Week 7
+7. Week 7
 
-- Week 8
+8. Week 8
 
-- Week 9
+9. Week 9
 
-- Week 10
+10. Week 10
 
-- Week 11
+11. Week 11
 
-- Week 12
+12. Week 12
