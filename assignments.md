@@ -2,9 +2,11 @@
 
 Assignments are count for 25% of your final grade. Most of the assignments are graded with [gradescope](https://www.gradescope.com/). You need to create an account and add yourself to the course with the entry code: MPKB3Y.
 
-## Student Introduction Survey
+## Survey
 
-Please fill the [suvery](https://forms.gle/2iQKQrGpcXnXMsQe9), due **September 8, 2019**.
+- [Student Introduction suvery](https://forms.gle/2iQKQrGpcXnXMsQe9), due **September 8, 2019**.
+- [Team registration](https://forms.gle/793jBEcBh9U57Qp99), due **September 8, 2019**.
+
 
 
 ## Posted Assignments
