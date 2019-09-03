@@ -52,6 +52,4 @@ Your final score for the course will be computed using the following weights:
 
 - James, Witten, Hastie, Tibshirani. [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
-## Getting Help
-
-Post the question in [Piazza]( http://piazza.com/university_of_montreal/fall2019/ift6758) and hopefully your peers will answer.  Note that in Piazza questions are visible to everyone. 
+ 
