@@ -13,7 +13,7 @@ The material of the course will integrate the five key facets of an investigatio
 - prediction or statistical learning
 - communication – summarizing results through visualization, stories, and interpretable summaries
 
-In this course, we focus on statistical methods and introduce techniques in different domains to make you familiar with various type of data. Our goal is to educate you to become  not only knowledgable and also responsible data scientist by the end of this course!
+In this course, we focus on statistical methods and introduce techniques in different domains to make you familiar with various type of data. Our goal is to educate you to become  not only knowledgable but also responsible data scientist by the end of this course!
 
 ## Room & Time
 
