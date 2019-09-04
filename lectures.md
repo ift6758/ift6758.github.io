@@ -4,27 +4,29 @@
 
 ### Lecture Slides
 
-- Week 1
+1. Week 1 (September 2--September 8)
+- Intro to Data Science, September 3, [slides](lectures/Intro%20to%20data%20science.pdf)
+- Data Transformation, September 3, [slides](lectures/data_transformations.pdf)
 
-- Week 2
+2. Week 2
 
-- Week 3
+3. Week 3
 
-- Week 4
+4. Week 4
 
-- Week 5
+5. Week 5
 
-- Week 6
+6. Week 6
 
-- Week 7
+7. Week 7
 
-- Week 8
+8. Week 8
 
-- Week 9
+9. Week 9
 
-- Week 10
+10. Week 10
 
-- Week 11
+11. Week 11
 
-- Week 12
+12. Week 12
 
