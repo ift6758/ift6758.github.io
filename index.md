@@ -25,7 +25,7 @@ In this course, we focus on statistical methods and introduce techniques in diff
 
 ### Labs
 
-- Tuesday, 12:30PM-14:30PM, B3250 Pavillon 3200 J-Brilliant, Université de Montréal
+- Tuesday, 12:30PM-14:30PM, X-115 Pavillon Roger-Gaudry, Université de Montréal
 
 ## Prerequisites
 
