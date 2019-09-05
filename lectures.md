@@ -7,6 +7,10 @@
 1. Week 1 (September 2--September 8)
 - Intro to Data Science, September 3, [slides](lectures/Intro%20to%20data%20science.pdf)
 - Data Transformation, September 3, [slides](lectures/data_transformations.pdf)
+- Tidy Data, September 5, [slides](lectures/tidy.pdf)
+- Data Visualization, September 5, [slides](lectures/vis.pdf)
+- [Tidy Intro](lectures/pew.html), [Tidy Advanced](lectures/billboard.html), and
+  [Vis](lectures/gapminder.html) notebooks, September 5
 
 2. Week 2
 
