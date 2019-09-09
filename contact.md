@@ -9,17 +9,31 @@ Exclusively in the event that you have a question of a sensitive, personal natur
 
 ## Instructors
 
-- [Golnoosh Farnadi](https://gfarnadi.github.io/)
+- [Golnoosh Farnadi](https://gfarnadi.github.io/) (Speaks English)
 
-- [Kris Sankaran](http://krisrs1128.github.io/personal-site/) 
+office hour: TBA
+
+- [Kris Sankaran](http://krisrs1128.github.io/personal-site/)  (Speaks English)
+
+office hour: TBA
 
  
 ## Teaching Assistants
  
-- Dmitriy Serdyuk 
+- Dmitriy Serdyuk (Speaks English)
+
+office hour: TBA
  
-- Arian Hosseini
+- Arian Hosseini (Speaks English)
+
+office hour: TBA
  
-- Pravish Sainath
+- Pravish Sainath (Speaks French & English)
+
+office hour: TBA
+
+- Bowen Peng (Speaks French & English)
+
+office hour: TBA
  
  
