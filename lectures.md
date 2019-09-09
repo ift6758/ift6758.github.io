@@ -13,6 +13,7 @@
   [Vis](lectures/gapminder.html) notebooks, September 5
 
 2. Week 2
+- Introduction to Python, September 10, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW)
 
 3. Week 3
 
