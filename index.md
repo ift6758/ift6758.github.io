@@ -16,7 +16,9 @@ The material of the course will integrate the five key facets of an investigatio
 In this course, we focus on statistical methods and introduce techniques in different domains to make you familiar with various type of data. Our goal is to educate you to become  not only knowledgable but also responsible data scientist by the end of this course!
 
 ## Announcements
-- Tuesday, 11:30AM-12:30PM, Z310 Pavillon Claire-McNicoll, Université de Montréal
+- Team names names for the project should be respectful to others and cannot resemble widely known legal entity names.
+- All the members of the team should be registered in the class.
+- If you are not a student at UdeM, send an email to Golnoosh Farnadi as soon as possible.
 
 ## Room & Time
 
@@ -27,10 +29,7 @@ In this course, we focus on statistical methods and introduce techniques in diff
 - Thursday, 4:30PM-6:30PM, G-415-511A Pavillon Roger-Gaudry, Université de Montréal
 
 ### Labs
-
-- Team names names for the project should be respectful to others and cannot resemble widely known legal entity names.
-- All the members of the team should be registered in the class.
-- If you are not a student at UdeM, send an email to Golnoosh Farnadi as soon as possible.
+- Tuesday, 11:30AM-12:30PM, Z310 Pavillon Claire-McNicoll, Université de Montréal
 
 ## Prerequisites
 
