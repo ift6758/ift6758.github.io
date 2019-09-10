@@ -4,7 +4,7 @@
 
 ### Lecture Slides
 
-1. Week 1 (September 2--September 8)
+1. Week 1 (September 2 -- September 8)
 - Intro to Data Science, September 3, [slides](lectures/Intro%20to%20data%20science.pdf)
 - Data Transformation, September 3, [slides](lectures/data_transformations.pdf)
 - Tidy Data, September 5, [slides](lectures/tidy.pdf)
@@ -12,7 +12,9 @@
 - [Tidy Intro](lectures/pew.html), [Tidy Advanced](lectures/billboard.html), and
   [Vis](lectures/gapminder.html) notebooks, September 5
 
-2. Week 2
+2. Week 2 (September 9 -- September 15)
+- Function Fitting, September 3 [slides](https://observablehq.com/@krisrs1128/function-fitting)
+  * [code examples](lectures/model_families_gallery.html)
 
 3. Week 3
 
