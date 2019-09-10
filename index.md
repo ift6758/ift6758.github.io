@@ -29,7 +29,7 @@ In this course, we focus on statistical methods and introduce techniques in diff
 - Thursday, 4:30PM-6:30PM, G-415-511A Pavillon Roger-Gaudry, Université de Montréal
 
 ### Labs
-- Tuesday, 11:30AM-12:30PM, Z310 Pavillon Claire-McNicoll, Université de Montréal
+- Tuesday, 12:30PM-14:30PM, X-115 Pavillon Roger-Gaudry, Université de Montréal
 
 ## Prerequisites
 
