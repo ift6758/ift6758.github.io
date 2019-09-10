@@ -34,7 +34,8 @@ Due to multiple requests, we extend the deadline for both survuys:
 1. Week 1 (September 2--September 8): 
 - Data Science Class: Lab Introduction, September 3, [slides](lab_materials/Data%20science%20class%20lab%20intro.pdf)
 
-2. Week 2
+2. Week 2 (September 9--September 15):
+- - Introduction to Python, September 10, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW)
 
 3. Week 3
 
