@@ -13,8 +13,9 @@
   [Vis](lectures/gapminder.html) notebooks, September 5
 
 2. Week 2 (September 9 -- September 15)
-- Function Fitting, September 3 [slides](https://observablehq.com/@krisrs1128/function-fitting)
+- Function Fitting, September 10 [slides](https://observablehq.com/@krisrs1128/function-fitting)
   * [code examples](lectures/model_families_gallery.html)
+- Introduction to Python, September 10, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW)
 
 3. Week 3
 
