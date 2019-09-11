@@ -36,6 +36,20 @@ Due to multiple requests, we extend the deadline for both survuys:
 
 2. Week 2 (September 9--September 15):
 - Introduction to Python, September 10, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW), [solution](https://colab.research.google.com/drive/1pX9xhyLIUE1OJtfXUvlN8RALkJfsWGVE), [notebook download](lab_materials/lab1_python/intro.ipynb), [solution download](lab_materials/lab1_python/intro_solution.ipynb)
+  More resources about Python:
+  - [Beginner's guide to Python](https://wiki.python.org/moin/BeginnersGuide)
+  - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
+  - [Style guide for Python code (PEP8)](https://www.python.org/dev/peps/pep-0008/)
+  - IDE's (Interactive development environments):
+    1. [PyCharm](https://www.jetbrains.com/pycharm/)
+       Community edition is free and free licences for students available
+    2. [Sublime Text](https://www.sublimetext.com/)
+       This is an editor, not an IDE, but it has many features for programmers
+    3. [Atom](https://atom.io/)
+       Same as Sublime, this is an editor
+    3. Emacs and Vim with plugins
+       These editors have quite steep learning curve
+    4. [Spyder](https://www.spyder-ide.org/)
 3. Week 3
 
 4. Week 4
