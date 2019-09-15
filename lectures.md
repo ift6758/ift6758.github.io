@@ -4,25 +4,54 @@
 
 ### Lecture Slides
 
-1. Week 1 (September 2 -- September 8)
-- Intro to Data Science, September 3, [slides](lectures/Intro%20to%20data%20science.pdf)
-- Data Transformation, September 3, [slides](lectures/data_transformations.pdf)
-- Tidy Data, September 5, [slides](lectures/tidy.pdf)
-- Data Visualization, September 5, [slides](lectures/vis.pdf)
-- [Tidy Intro](lectures/pew.html), [Tidy Advanced](lectures/billboard.html), and
-  [Vis](lectures/gapminder.html) notebooks, September 5
+1. Week 1
+- September 3
+  * [Intro to Data Science](lectures/Intro%20to%20data%20science.pdf)
+  * [Data Transformation](lectures/data_transformations.pdf)
+- September 5, 
+  * [Tidy Data](lectures/tidy.pdf)
+  * [Data Visualization](lectures/vis.pdf)
+  * [Tidy Intro](lectures/pew.html), [Tidy Advanced](lectures/billboard.html), and
+  [Vis](lectures/gapminder.html) notebooks
 
-2. Week 2 (September 9 -- September 15)
-- Function Fitting, September 10 [slides](https://observablehq.com/@krisrs1128/function-fitting)
+2. Week 2
+- September 10
+  * [Function Fitting Intro](https://observablehq.com/@krisrs1128/function-fitting)
   * [code examples](lectures/model_families_gallery.html)
-- Function Fitting pt. 2, September 12 [slides](https://observablehq.com/@krisrs1128/function-fitting-crash-course)
+  * Reading: ISLR 2.1, 3.2.1, 3.5
+- September 12
+  * [Function Fitting Algorithms](https://observablehq.com/@krisrs1128/function-fitting-crash-course)
   * [demo](https://observablehq.com/@krisrs1128/knn-bias-variance)
+  * Reading: ISLR 3.2.1, 3.3.1, 3.3.2, 3.5, 4.3, 7.2, 8.1
 
 3. Week 3
+- September 17
+  * Function Fitting Implementation
+  * Reading: PDS pg. 390 - 396, 400 - 405 and ISLR 4.6.5
+  * Optional reading: ISLR 8.3.1, 8.3.2
+- September 19
+  * Unsupervised Learning Algorithms
+  * Reading: ISLR 10.1, 10.2, PDS pg. 462 - 476
+  * Optional Reading: ISLR 10.3
 
 4. Week 4
+- September 24
+  * Cross Validation + Model Selection
+  * Reading: ISLR 5.1, PDS pg. 359 - 375
+- September 26
+  * Introduction to Inference
+  * Reading: ISLR 3.1.1, 3.1.2, [Bayesian Basics](https://m-clark.github.io/bayesian-basics/)
+  * Optional reading: [MSMB](http://web.stanford.edu/class/bios221/book/Chap-Testing.html) 6.1 - 6.6, [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers?slide=138)
 
 5. Week 5
+- October 1
+  * The Bootstrap
+  * Reading: ISLR 5.2 - 5.3
+  * Optional reading: [CASI](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) Chapter 1
+- October 3
+  * Large Scale Inference and Experimental Design
+  * Reading: [MSMB](http://web.stanford.edu/class/bios221/book/Chap-Testing.html) 6.7 - 6.11, 13.1 - 13.4. 
+  * Optional reading: [CASI](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) 15.1 - 15.3
 
 6. Week 6
 
