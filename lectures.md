@@ -16,6 +16,7 @@
 - Function Fitting, September 10 [slides](https://observablehq.com/@krisrs1128/function-fitting)
   * [code examples](lectures/model_families_gallery.html)
 - Function Fitting pt. 2, September 12 [slides](https://observablehq.com/@krisrs1128/function-fitting-crash-course)
+  * [demo](https://observablehq.com/@krisrs1128/knn-bias-variance)
 
 3. Week 3
 
