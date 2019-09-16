@@ -29,6 +29,7 @@
   * Function Fitting Implementation
   * Reading: PDS pg. 390 - 396, 400 - 405 and ISLR 4.6.6
   * Optional reading: ISLR 8.3.1, 8.3.2
+  * Notebooks: [Regression](https://colab.research.google.com/drive/1Ro8Jp975pBuW5DdljGmqXfMqSESFzfdY), [knn + logistic regression](https://colab.research.google.com/drive/1ZyUp1v7oaN8z0qk4Y-F_Dxz1TkBRFlNh), and [trees](https://colab.research.google.com/drive/1tv6npC_FnojKAo89zAHBWQColjYKQ-rd)
 - September 19
   * Unsupervised Learning Algorithms
   * Reading: ISLR 10.1, 10.2, PDS pg. 462 - 476
