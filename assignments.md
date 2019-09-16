@@ -6,8 +6,8 @@ Assignments are count for 25% of your final grade. Most of the assignments are g
 
 Due to multiple requests, we extend the deadline for both survuys:
 
-- [Student Introduction suvery](https://forms.gle/2iQKQrGpcXnXMsQe9), due <span style="color:red">**September 15, 2019**</span>.
-- [Team registration](https://forms.gle/793jBEcBh9U57Qp99), due <span style="color:red">**September 15, 2019**</span>.
+- [Student Introduction suvery](https://forms.gle/2iQKQrGpcXnXMsQe9), due **September 15, 2019**.
+- [Team registration](https://forms.gle/793jBEcBh9U57Qp99), due **September 15, 2019**.
 
 
 
