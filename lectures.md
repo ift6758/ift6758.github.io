@@ -27,7 +27,7 @@
 3. Week 3
 - September 17
   * Function Fitting Implementation
-  * Reading: PDS pg. 390 - 396, 400 - 405 and ISLR 4.6.5
+  * Reading: PDS pg. 390 - 396, 400 - 405 and ISLR 4.6.6
   * Optional reading: ISLR 8.3.1, 8.3.2
 - September 19
   * Unsupervised Learning Algorithms
