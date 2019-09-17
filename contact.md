@@ -11,29 +11,29 @@ Exclusively in the event that you have a question of a sensitive, personal natur
 
 - [Golnoosh Farnadi](https://gfarnadi.github.io/) (Speaks English)
 
-office hour: TBA
+office hour: Thursday 12h - 13h30
 
 - [Kris Sankaran](http://krisrs1128.github.io/personal-site/)  (Speaks English)
 
-office hour: TBA
+office hour: Wednesday 16h30 - 18h
 
  
 ## Teaching Assistants
  
 - Dmitriy Serdyuk (Speaks English)
 
-office hour: TBA
+office hour: Tuesday 15h - 16h30
  
 - Arian Hosseini (Speaks English)
 
-office hour: TBA
+office hour: Monday 9h - 10h30
  
 - Pravish Sainath (Speaks French & English)
 
-office hour: TBA
+office hour: Thursday 13h30 - 15h
 
 - Bowen Peng (Speaks French & English)
 
-office hour: TBA
+office hour: Monday 13h30 - 15h
  
  
