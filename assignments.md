@@ -50,8 +50,8 @@ Due to multiple requests, we extend the deadline for both survuys:
     3. Emacs and Vim with plugins
        These editors have quite steep learning curve
     4. [Spyder](https://www.spyder-ide.org/)
-3. Week 3
-
+3. Week 3 (September 16 -- September 22)
+- Introduction to NumPy, SciPy and Matplotlib  [notebook](https://colab.research.google.com/drive/1loNALZph2WrseXNo8JMhLWZmHlETTiKK)
 4. Week 4
 
 5. Week 5
