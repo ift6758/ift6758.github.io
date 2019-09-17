@@ -4,6 +4,10 @@
 
 ### Lecture Slides
 
+ISLR = Introduction to Statistical Learning
+PDS = Python for Data Science
+(see homepage for links)
+
 1. Week 1
 - September 3
   * [Intro to Data Science](lectures/Intro%20to%20data%20science.pdf)
