@@ -60,6 +60,7 @@ PDS = Python for Data Science
 6. Week 6
 - October 8
   * Feature engineering + Outlier and error analysis
+
 - October 10
   * Feature selection + Dimentionallity reduction
 
