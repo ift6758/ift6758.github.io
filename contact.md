@@ -35,4 +35,5 @@ office hour: Thursday 13h30 - 15h
 
 office hour: Monday 13h30 - 15h
  
- 
+
+All office hours will be held at local **AA-3248** in Pavillon André-Aisenstadt (DIRO).
