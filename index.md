@@ -40,7 +40,7 @@ Basic knowledge of statistics, and Python programming is encouraged.
 
 Your final score for the course will be computed using the following weights:
 
-- Project counts: **35%** 
+- Project: **35%** 
 - Assignments: **25%** 
 - Mid-term: **15%**
 - Final: **25%** 
