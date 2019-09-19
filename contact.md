@@ -6,6 +6,9 @@ Post your questions in [Piazza]( http://piazza.com/university_of_montreal/fall20
 
 Exclusively in the event that you have a question of a sensitive, personal nature: Please feel free to email the instructors. Please start the subject of your email with “[IFT6758]” to make sure that it is not lost.
 
+
+All office hours will be held at local **AA-3248** in Pavillon André-Aisenstadt (DIRO).
+
 ## Instructors
 
 - [Golnoosh Farnadi](https://gfarnadi.github.io/) (Speaks English)
@@ -35,5 +38,3 @@ office hour: Thursday 13h30 - 15h
 
 office hour: Monday 13h30 - 15h
  
-
-All office hours will be held at local **AA-3248** in Pavillon André-Aisenstadt (DIRO).
