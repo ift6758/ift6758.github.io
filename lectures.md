@@ -58,16 +58,62 @@ PDS = Python for Data Science
   * Optional reading: [CASI](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) 15.1 - 15.3
 
 6. Week 6
+- October 8
+* Feature engineering + Outlier and error analysis
+
+- October 10
+* Feature selection + Dimentionallity reduction
 
 7. Week 7
+- October 15
+* Data Bias: Source and types of data bias
 
-8. Week 8
+- October 17
+* Bias and Discrimination in Machine Learning: fairness metrics 
+
+8. Week 8 
+- October 22 
+* Reading week
 
 9. Week 9
+- October 29
+* **MIDTERM**
 
 10. Week 10
+- November 5
+* Text mining (NLP): BOW, n-grams, topic model, and language model
+
+- November 7
+* Text mining (NLP): advanced techniques
 
 11. Week 11
+- November 12
+*  Time series and GEO location
+
+- November 14
+* Computer Vision and Multimodal
 
 12. Week 12
+- November 19
+* Graph mining: Information Retrieval
+
+- November 21
+* Graph mining: Recommender system
+
+13. Week 13
+- November 26
+* Advanced Inference
+
+- November 28
+* Ensemble methods: bagging/boosting
+
+14. Week 14
+- December 3
+* Data at scale
+
+- December 5
+* Privacy + Transparency+ Explainable data science
+
+15. Week 15
+* **FINAL**
 
