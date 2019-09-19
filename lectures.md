@@ -121,5 +121,6 @@ PDS = Python for Data Science
   * Privacy + Transparency+ Explainable data science
 
 15. Week 15
+- December 10
   * **FINAL**
 
