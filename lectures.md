@@ -80,10 +80,10 @@ PDS = Python for Data Science
 
 10. Week 10
 - November 5
-  * Text mining (NLP): BOW, n-grams, topic model, and language model
+  * Project presentation
 
 - November 7
-  * Text mining (NLP): advanced techniques
+  * Text mining (NLP): BOW, n-grams, topic model, and language model
 
 11. Week 11
 - November 12
