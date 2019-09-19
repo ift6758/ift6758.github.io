@@ -17,7 +17,7 @@ Wrangling and Visualization exercises [[english](https://colab.research.google.c
 
 Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
 
-- Assignment 1, due 10 October on gradescope
+- Assignment 1, due **October 10** on gradescope
   * Wrangling and Visualization: 4, 9, 12
   * Function Fitting: 1, 8, 11
 - Assignment 2, due 
