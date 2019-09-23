@@ -21,7 +21,7 @@ office hour: Wednesday 16h30 - 18h
  
 - Dmitriy Serdyuk (Speaks English)
 
-office hour: Tuesday 15h - 16h30
+office hour: Tuesday 14h30 - 16h
  
 - Arian Hosseini (Speaks English)
 
