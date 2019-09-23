@@ -32,7 +32,8 @@
     4. [Spyder](https://www.spyder-ide.org/)
 3. Week 3 (September 16 -- September 22)
 - Introduction to NumPy, SciPy and Matplotlib  [notebook](https://colab.research.google.com/drive/1loNALZph2WrseXNo8JMhLWZmHlETTiKK)
-4. Week 4
+4. Week 4 (September 23 -- September 29)
+- Computing resources and setup for the project.
 
 5. Week 5
 
