@@ -25,27 +25,24 @@ relations_in = tf.keras.Input(name="relations_in", shape=[adjacency_matrix_size,
 
 # embedding models: These are pre-trained feature extractors available from tensorflow-hub:
 text_embedding_module_url = "https://tfhub.dev/google/tf2-preview/nnlm-en-dim128/1"
-embed_text = hub.KerasLayer(text_embedding_module_url, output_shape=[128], input_shape=[], dtype=tf.string)
+embed_text = hub.KerasLayer(text_embedding_module_url, output_shape=[128], input_shape=[], dtype=tf.string, trainable=False, name="text_features")
 text_features = embed_text(text_in)
 
 image_embedding_module_url = "https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector/4"
-embed_image = hub.KerasLayer(image_embedding_module_url, output_shape=[2048], trainable=False)
+embed_image = hub.KerasLayer(image_embedding_module_url, output_shape=[2048], trainable=False, name="image_features")
 image_features = embed_image(image_in)
 
 
 num_dense_layers = 2
-dense_block = tf.keras.Sequential(
-    [
-        tf.keras.layers.Concatenate(),
-    ] 
-    + [
-        tf.keras.layers.Dense(units=256, activation="relu"),
-        tf.keras.layers.Dropout(0.5),
-        # tf.keras.layers.BatchNormalization(p=0.1),
-    ] * num_dense_layers
-)
+dense_block = tf.keras.Sequential(name="dense_block")
+dense_block.add(tf.keras.layers.Concatenate())
+for i in range(num_dense_layers):
+    dense_block.add(tf.keras.layers.Dense(units=256, activation="relu"))
+    dense_block.add(tf.keras.layers.Dropout(0.5))
+
 
 features = dense_block([text_features, image_features])
+
 
 # max age is set to 125, for instance. 
 # NOTE: maybe using a single number for the age would be better, since the loss could be 
