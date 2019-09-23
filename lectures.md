@@ -40,7 +40,7 @@ PDS = Python for Data Science
 
 4. Week 4
 - September 24
-  * Cross Validation + Model Selection
+  * [Cross Validation + Model Selection](https://observablehq.com/@krisrs1128/cross-validation-and-model-selection)
   * Reading: ISLR 5.1, PDS pg. 359 - 375
 - September 26
   * Introduction to Inference
