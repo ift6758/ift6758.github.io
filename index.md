@@ -17,7 +17,7 @@ In this course, we focus on statistical methods and introduce techniques in diff
 ## Announcements
 
 - Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
-- Before using the data for the [project](project.md), You need to sign a copy of the user agreement.
+- Before using the data for the [project](project.md), you need to sign a copy of the user agreement.
 - All the members of the team should be registered in the class.
 
 ## Room & Time
