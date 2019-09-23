@@ -2,6 +2,13 @@
 
 Assignments are count for 25% of your final grade. Most of the assignments are graded with [gradescope](https://www.gradescope.com/). You need to create an account and add yourself to the course with the entry code: MPKB3Y.
 
+Homework expectations,
+
+- Completely explain your solutions. Correct answers without clear explanations will not receive full credit.
+- Homeworks must be completed individually. Discussion with others is okay, but you must write solutions yourself.
+- All code used to arrive at answers is submitted along with answers. If you submit an export of an IPython notebook, you must also separately submit code as a `.py` file.
+- Code will be graded according to style in addition to functionality.
+
 ## Survey
 
 Due to multiple requests, we extend the deadline for both survuys:
@@ -17,7 +24,7 @@ Wrangling and Visualization exercises [[english](https://colab.research.google.c
 
 Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
 
-- Assignment 1, due **October 10** on gradescope
+- Assignment 1, due **October 10**. Upload the PDF to your gradescope account.
   * Wrangling and Visualization: 4, 9, 12
   * Function Fitting: 1, 8, 11
 - Assignment 2, due 
