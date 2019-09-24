@@ -35,6 +35,8 @@
 4. Week 4 (September 23 -- September 29)
 - Computing resources and setup for the project.
 
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
 5. Week 5
 
 6. Week 6
