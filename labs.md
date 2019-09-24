@@ -36,6 +36,7 @@
 - Computing resources and setup for the project.
 
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+[Putty](https://www.putty.org/)
 
 5. Week 5
 
