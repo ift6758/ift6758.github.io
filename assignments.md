@@ -18,16 +18,16 @@ Due to multiple requests, we extend the deadline for both survuys:
 
 
 ## Posted Assignments
+  
+- Project Assignment 1, due **September 30**. Submit code on the server.
+  * Project: Baseline predictor [[english](assignments/Project_Assignment_1(EN).pdf),[french](assignments/Project_Assignment_1(FR).pdf)]
 
 - Assignment 1, due **October 10**. Upload the PDF to your gradescope account.
   * Wrangling and Visualization: 4, 9, 12
   * Wrangling and Visualization exercises [[english](https://colab.research.google.com/drive/10nTBPokrkrat8KYsCayfvA2CSZRM0VdZ#scrollTo=luhc8KH_8wYz), [french](https://colab.research.google.com/drive/13l69m9RJYnO_AOIM0x4zKN7tDgcQHDa2)]
   * Function Fitting: 1, 8, 11
   * Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
-  
-- Assignment 2, due **September 30**. Submit code on the server.
-  * Project: Baseline predictor [[english](assignments/Project_Assignment_1(EN).pdf),[french](assignments/Project_Assignment_1(FR).pdf)]
 
-- Assignment 3, due 
+- Assignment 1, due 
 
 
