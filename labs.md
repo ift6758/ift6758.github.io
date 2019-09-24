@@ -54,6 +54,7 @@ conda install pandas
 pip install ipdb
 
 scp <filename> ta03@35.209.252.8:<remote file name>
+
 ```
 
 5. Week 5
