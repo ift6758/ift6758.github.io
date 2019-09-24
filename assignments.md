@@ -25,7 +25,7 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Function Fitting: 1, 8, 11
   * Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
   
-- Assignment 2, due **September 30**. Submit code in your account.
+- Assignment 2, due **September 30**. Submit code on the server.
   * Project: Baseline predictor [[english](assignments/Project_Assignment_1(EN).pdf),[french](assignments/Project_Assignment_1(FR).pdf)]
 
 - Assignment 3, due 
