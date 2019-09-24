@@ -17,17 +17,17 @@ Due to multiple requests, we extend the deadline for both survuys:
 - [Team registration](https://forms.gle/793jBEcBh9U57Qp99), due **September 15, 2019**.
 
 
-
 ## Posted Assignments
-
-Wrangling and Visualization exercises [[english](https://colab.research.google.com/drive/10nTBPokrkrat8KYsCayfvA2CSZRM0VdZ#scrollTo=luhc8KH_8wYz), [french](https://colab.research.google.com/drive/13l69m9RJYnO_AOIM0x4zKN7tDgcQHDa2)]
-
-Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
 
 - Assignment 1, due **October 10**. Upload the PDF to your gradescope account.
   * Wrangling and Visualization: 4, 9, 12
+  * Wrangling and Visualization exercises [[english](https://colab.research.google.com/drive/10nTBPokrkrat8KYsCayfvA2CSZRM0VdZ#scrollTo=luhc8KH_8wYz), [french](https://colab.research.google.com/drive/13l69m9RJYnO_AOIM0x4zKN7tDgcQHDa2)]
   * Function Fitting: 1, 8, 11
-- Assignment 2, due 
+  * Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
+  
+- Assignment 2, due **September 30**. Submit code in your account.
+  * Project: Baseline predictor [[english](assignments/Project_Assignment_1(EN).pdf),[french](assignments/Project_Assignment_1(FR).pdf)]
+
 - Assignment 3, due 
 
 
