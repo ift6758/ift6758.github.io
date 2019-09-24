@@ -44,7 +44,7 @@ PDS = Python for Data Science
   * Reading: ISLR 5.1, PDS pg. 359 - 375
 - September 26
   * Introduction to Inference
-  * Reading: ISLR 3.1.1, 3.1.2, [Bayesian Basics](https://m-clark.github.io/bayesian-basics/)
+  * Reading: ISLR 3.1.1, 3.1.2, [Bayesian Basics](https://m-clark.github.io/bayesian-basics/) (intro - regression models)
   * Optional reading: [MSMB](http://web.stanford.edu/class/bios221/book/Chap-Testing.html) 6.1 - 6.6, [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers?slide=138)
 
 5. Week 5
