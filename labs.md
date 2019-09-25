@@ -38,7 +38,7 @@
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 [Putty](https://www.putty.org/)
 
-[comment]: <> (
+[//]: # (
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
