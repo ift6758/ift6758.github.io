@@ -38,25 +38,10 @@
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 [Putty](https://www.putty.org/)
 
-[//]: # (
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+module load miniconda/3 
 
-bash Miniconda3-latest-Linux-x86_64.sh
-
-export PATH=$PATH:`pwd`/miniconda3/bin/
-
-conda install jupyter
-
-conda install ipython
-
-conda install pandas
-
-pip install ipdb
-
-scp <filename> ta03@35.209.252.8:<remote file name>
 ```
-)
 
 5. Week 5
 
