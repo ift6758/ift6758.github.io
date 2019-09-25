@@ -38,6 +38,8 @@
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 [Putty](https://www.putty.org/)
 
+The simplest way to make use of a library on the server is to first load the corresponding module, e.g., 
+
 ```
 module load miniconda/3 
 
