@@ -43,13 +43,13 @@ PDS = Python for Data Science
   * [Cross Validation + Model Selection](https://observablehq.com/@krisrs1128/cross-validation-and-model-selection)
   * Reading: ISLR 5.1, PDS pg. 359 - 375
 - September 26
-  * Introduction to Inference
+  * [Introduction to Inference](https://observablehq.com/@krisrs1128/introduction-to-inference)
   * Reading: ISLR 3.1.1, 3.1.2, [Bayesian Basics](https://m-clark.github.io/bayesian-basics/) (intro - regression models)
   * Optional reading: [MSMB](http://web.stanford.edu/class/bios221/book/Chap-Testing.html) 6.1 - 6.6, [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers?slide=138)
 
 5. Week 5
 - October 1
-  * The Bootstrap
+  * [The Bootstrap](https://observablehq.com/@krisrs1128/the-bootstrap)
   * Reading: ISLR 5.2 - 5.3
   * Optional reading: [CASI](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) Chapter 1
 - October 3
