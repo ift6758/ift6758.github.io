@@ -99,10 +99,10 @@ PDS = Python for Data Science
   
 12. Week 12
 - November 19
-  * Graph mining: Information Retrieval
+  * Information Retrieval
   *
 - November 21
-  * Graph mining: Recommender system
+  * Graph mining and Recommender systems
   *
   
 13. Week 13
