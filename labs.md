@@ -46,7 +46,7 @@ module load miniconda/3
 ```
 
 5. Week 5 (September 30 -- October 6)
-- Introduction to Pandas,[notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
+- Introduction to Pandas, [notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
 
 6. Week 6
 
