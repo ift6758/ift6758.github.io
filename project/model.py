@@ -35,14 +35,13 @@ image_features = embed_image(image_in)
 
 num_dense_layers = 2
 dense_block = tf.keras.Sequential(name="dense_block")
+
 dense_block.add(tf.keras.layers.Concatenate())
 for i in range(num_dense_layers):
     dense_block.add(tf.keras.layers.Dense(units=256, activation="relu"))
     dense_block.add(tf.keras.layers.Dropout(0.5))
 
-
 features = dense_block([text_features, image_features])
-
 
 # max age is set to 125, for instance. 
 # NOTE: maybe using a single number for the age would be better, since the loss could be 
