@@ -2,16 +2,16 @@
 
 ## Lab Practical
 
-- Lab exercise 1 
+- Lab exercise 1
 
-- Lab exercise 2 
+- Lab exercise 2
 
 - Lab exercise 3
 
 
 ## Lab Materials
 
-1. Week 1 (September 2 -- September 8): 
+1. Week 1 (September 2 -- September 8):
 - Data Science Class: Lab Introduction, September 3, [slides](lab_materials/Data%20science%20class%20lab%20intro.pdf)
 
 2. Week 2 (September 9 -- September 15):
@@ -38,14 +38,15 @@
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 [Putty](https://www.putty.org/)
 
-The simplest way to make use of a library on the server is to first load the corresponding module, e.g., 
+The simplest way to make use of a library on the server is to first load the corresponding module, e.g.,
 
 ```
-module load miniconda/3 
+module load miniconda/3
 
 ```
 
-5. Week 5
+5. Week 5 (September 30 -- October 6)
+[notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
 
 6. Week 6
 
