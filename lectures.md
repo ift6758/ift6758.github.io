@@ -102,26 +102,25 @@ PDS = Python for Data Science
   
 12. Week 12
 - November 19
-  * Information Retrieval
+  * Graph mining and Recommender systems
   *
 - November 21
-  * Graph mining and Recommender systems
+  * Ensemble methods: bagging/boosting
   *
   
 13. Week 13
 - November 26
-  * Ensemble methods: bagging/boosting
+  * Pattern mining and associate rule mining
   *
 - November 28
-  * Pattern mining and associate rule mining
+  * Data at scale
   *
   
 14. Week 14
 - December 3
-  * Data at scale
-  *
-- December 5
   * Privacy + Transparency+ Explainable data science
+  *
+
 
 15. Week 15
 - December 17
