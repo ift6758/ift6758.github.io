@@ -69,7 +69,7 @@ PDS = Python for Data Science
 7. Week 7
 - October 15
   * Data Bias: Source and types of data bias
-  * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries] (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526)
+  * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526)
 - October 17
   * Bias and Discrimination in Machine Learning: fairness metrics 
   * Reading: [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
