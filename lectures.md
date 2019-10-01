@@ -110,10 +110,10 @@ PDS = Python for Data Science
   
 13. Week 13
 - November 26
-  * Advanced Inference
+  * Ensemble methods: bagging/boosting
   *
 - November 28
-  * Ensemble methods: bagging/boosting
+  * Pattern mining and associate rule mining
   *
   
 14. Week 14
