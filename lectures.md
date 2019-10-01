@@ -62,7 +62,7 @@ PDS = Python for Data Science
   * Feature engineering + Outlier and error analysis
   *
 - October 10
-  * Feature selection + Dimentionallity reduction
+  * Feature selection 
   *
   
 7. Week 7
