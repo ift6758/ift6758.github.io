@@ -74,7 +74,7 @@ PDS = Python for Data Science
   * Bias and Discrimination in Machine Learning: fairness metrics 
   * Reading: [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
   * Video: [21 fairness definitions and their politics](https://youtu.be/jIXIuYdnyyk) 
-  * Fairness metric tools: 
+  * Fairness metric tools: [The Aequitas Toolkit Paper](https://arxiv.org/abs/1811.05577), [The Aequitas Tool](https://github.com/dssg/aequitas)
   
 8. Week 8 
 - October 22 
