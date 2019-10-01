@@ -63,15 +63,18 @@ PDS = Python for Data Science
   *
 - October 10
   * Feature selection 
-  *
+  * Reading: [KDD tutorial](http://www.public.asu.edu/~jundongl/tutorial/KDD17/KDD17.pdf)
+  * Feature selection tool [scikit-learn](https://scikit-learn.org/stable/modules/feature_selection.html), [featureminer](http://featureselection.asu.edu/featureminer.php)
   
 7. Week 7
 - October 15
   * Data Bias: Source and types of data bias
-  *
+  * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries] (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526)
 - October 17
   * Bias and Discrimination in Machine Learning: fairness metrics 
-  *
+  * Reading: [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
+  * Video: [21 fairness definitions and their politics](https://youtu.be/jIXIuYdnyyk) 
+  * Fairness metric tools: 
   
 8. Week 8 
 - October 22 
