@@ -32,12 +32,10 @@
        These editors have quite steep learning curve
     4. [Spyder](https://www.spyder-ide.org/)
 3. Week 3 (September 16 -- September 22)
-- Introduction to NumPy, SciPy and Matplotlib  [notebook](https://colab.research.google.com/drive/1loNALZph2WrseXNo8JMhLWZmHlETTiKK)
+- Introduction to NumPy, SciPy and Matplotlib, [notebook](https://colab.research.google.com/drive/1loNALZph2WrseXNo8JMhLWZmHlETTiKK)
 4. Week 4 (September 23 -- September 29)
-- Computing resources and setup for the project.
-
-[Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-[Putty](https://www.putty.org/)
+- Computing resources and setup for the project. [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+, [Putty](https://www.putty.org/)
 
 The simplest way to make use of a library on the server is to first load the corresponding module, e.g.,
 
