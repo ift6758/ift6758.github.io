@@ -1,4 +1,4 @@
-| [../Home](index.md) | [../Lectures](lectures.md) | [../Labs](labs.md) | [../Assignments](assignments.md) | [../Project](project.md)| [../Contact](contact.md) |
+| [Home](../index.md) | [Lectures](../lectures.md) | [Labs](../labs.md) | [Assignments](../assignments.md) | [Project](../project.md)| [Contact](../contact.md) |
 
 
 # Scoreboard
