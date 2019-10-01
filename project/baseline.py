@@ -4,9 +4,6 @@ import argparse
 from user import age_group_string, User
 import os
 
-train_profiles_path = "./Profiles.csv"
-test_profiles_path = "test_Profiles.csv"
-
 def baseline(input_dir: str, output_dir: str, train_profiles_file_path: str):
     """
     input_dir: Input test directory. It is assumed that the folder structure is the same as the Trainign structure.
@@ -49,7 +46,7 @@ def baseline(input_dir: str, output_dir: str, train_profiles_file_path: str):
     
     # create the 'average' user.
     average_user = User(
-        userid='1',
+        userid='doesnt matter', # we are going to overwrite this value below.
         age=-1, # we don't use the age, just the age group.
         age_group=most_frequent_age_group,
         gender=most_common_gender,
@@ -67,13 +64,16 @@ def baseline(input_dir: str, output_dir: str, train_profiles_file_path: str):
             xml_file.write(average_user.to_xml())
 
 
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", type=str, default="./debug_data", help="Input directory")
     parser.add_argument("-o", type=str, default="./debug_output", help="Output directory")
-    parser.add_argument("--train_profiles_file_path", type=str, default="./debug_profile.csv", help="Path to the training 'Profile.csv' file used to compute the baseline statistics")
+    parser.add_argument("--train_profiles_file_path", type=str, default="./debug_profile.csv",
+        help="""
+            Path to the training 'Profile.csv' file used to compute the baseline statistics.
+            When running on the server, this should be set to '/home/mila/teaching/user07/Train/Profile/Profile.csv'
+        """
+    )
     
     args = parser.parse_args()
     baseline(args.i, args.o, args.train_profiles_file_path)
