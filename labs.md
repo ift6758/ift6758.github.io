@@ -16,6 +16,7 @@
 
 2. Week 2 (September 9 -- September 15):
 - Introduction to Python, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW), [solution](https://colab.research.google.com/drive/1pX9xhyLIUE1OJtfXUvlN8RALkJfsWGVE), [notebook download](lab_materials/lab1_python/intro.ipynb), [solution download](lab_materials/lab1_python/intro_solution.ipynb)
+  
   More resources about Python:
   - [Beginner's guide to Python](https://wiki.python.org/moin/BeginnersGuide)
   - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
