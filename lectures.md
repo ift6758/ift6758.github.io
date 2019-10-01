@@ -125,4 +125,5 @@ PDS = Python for Data Science
 15. Week 15
 - December 17
   * **FINAL**
+  * project presentation
 
