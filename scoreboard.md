@@ -3,7 +3,7 @@
 
 # Scoreboard
 
-| [Evaluation1](scores/evaluatio1.md)|
+| [Evaluation1](scores/evaluation1.md)|
 
 ## Evaluation 1
 
