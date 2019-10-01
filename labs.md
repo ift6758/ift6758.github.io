@@ -12,10 +12,10 @@
 ## Lab Materials
 
 1. Week 1 (September 2 -- September 8):
-- Data Science Class: Lab Introduction, September 3, [slides](lab_materials/Data%20science%20class%20lab%20intro.pdf)
+- Data Science Class: Lab Introduction, [slides](lab_materials/Data%20science%20class%20lab%20intro.pdf)
 
 2. Week 2 (September 9 -- September 15):
-- Introduction to Python, September 10, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW), [solution](https://colab.research.google.com/drive/1pX9xhyLIUE1OJtfXUvlN8RALkJfsWGVE), [notebook download](lab_materials/lab1_python/intro.ipynb), [solution download](lab_materials/lab1_python/intro_solution.ipynb)
+- Introduction to Python, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW), [solution](https://colab.research.google.com/drive/1pX9xhyLIUE1OJtfXUvlN8RALkJfsWGVE), [notebook download](lab_materials/lab1_python/intro.ipynb), [solution download](lab_materials/lab1_python/intro_solution.ipynb)
   More resources about Python:
   - [Beginner's guide to Python](https://wiki.python.org/moin/BeginnersGuide)
   - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
@@ -46,7 +46,7 @@ module load miniconda/3
 ```
 
 5. Week 5 (September 30 -- October 6)
-[notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
+- Introduction to Pandas,[notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
 
 6. Week 6
 
