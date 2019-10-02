@@ -82,7 +82,7 @@ PDS = Python for Data Science
   
 9. Week 9
 - October 31
-  * **MIDTERM** at 16:30-18:30 at Z-110
+  * **MIDTERM**: 16:30-18:30 at Z-110
   
 
 10. Week 10
@@ -125,7 +125,7 @@ PDS = Python for Data Science
 
 15. Week 15
 - December 17
-  * **FINAL** at 16:30-18:59 at Z-110
+  * **FINAL**: 16:30-18:59 at Z-110
 -  (TBA)
   * project presentation (TBA)
 
