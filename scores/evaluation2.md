@@ -4,7 +4,7 @@
 
 # Scoreboard
 
-| [Evaluation1](evaluation1.md)|[Evaluation2](evaluation2.md)|
+| [Evaluation1](evaluation1.md) | [Evaluation2](evaluation2.md) |
 
 ## Evaluation 2
 
