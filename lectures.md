@@ -53,7 +53,7 @@ PDS = Python for Data Science
   * Reading: ISLR 5.2 - 5.3
   * Optional reading: [CASI](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) Chapter 1
 - October 3
-  * Large Scale Inference and Experimental Design
+  * [Large Scale Inference and Experimental Design](https://observablehq.com/@krisrs1128/large-scale-inference-and-experimental-design)
   * Reading: [MSMB](http://web.stanford.edu/class/bios221/book/Chap-Testing.html) 6.7 - 6.11, 13.1 - 13.4. 
   * Optional reading: [CASI](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) 15.1 - 15.3
 
