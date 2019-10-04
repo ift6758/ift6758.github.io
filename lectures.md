@@ -81,11 +81,9 @@ PDS = Python for Data Science
 - October 29 
   * Project presentation
   *
-  
 - October 31
   * **MIDTERM**: 16:30-18:30 at Z-110
   
-
 10. Week 10
 - November 5
   Data Bias: Source and types of data bias
