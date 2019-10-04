@@ -71,7 +71,7 @@ PDS = Python for Data Science
   * Geospatial data analysis and Time series by [dr. Behrouz Babaki](https://behrouz-babaki.github.io/) 
   * 
 - October 17
-  * Privacy-preserving data publishing, privacy-preserving machine learning and transparency by [dr. Ulrich Aivodji](https://aivodji.github.io/)
+  * Privacy and Transparency in Machine Learning: privacy-preserving data publishing, privacy-preserving machine learning and transparency by [dr. Ulrich Aivodji](https://aivodji.github.io/)
 
 8. Week 8 
 - October 22 
