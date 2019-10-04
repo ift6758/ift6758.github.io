@@ -69,11 +69,11 @@ PDS = Python for Data Science
 7. Week 7 (Invited Guest Lectures)
 - October 15
   * Geospatial data analysis and Time series by [dr. Behrouz Babaki](https://behrouz-babaki.github.io/) 
-  *
+  * Optional reading: TBA
   * Tools: [Shapely](https://shapely.readthedocs.io/en/stable/manual.html), [Basemap](https://matplotlib.org/basemap/), [geopandas](http://geopandas.org/)
 - October 17
   * Privacy and Transparency in Machine Learning: privacy-preserving data publishing, privacy-preserving machine learning and transparency by [dr. Ulrich Aivodji](https://aivodji.github.io/)
-  *
+  * Optional reading: TBA
   *
 
 8. Week 8 
