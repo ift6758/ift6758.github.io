@@ -16,9 +16,9 @@ In this course, we focus on statistical methods and introduce techniques in diff
 
 ## Announcements
 
-- Team names: names for the project should be respectful to others and cannot resemble widely known legal entity names.
+- Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
+- Before using the data for the [project](project.md), you need to sign a copy of the user agreement.
 - All the members of the team should be registered in the class.
-- If you are not a student at UdeM, send an email to Golnoosh Farnadi as soon as possible.
 
 ## Room & Time
 

@@ -1,15 +1,16 @@
-| [Home](index.md) | [Lectures](lectures.md) | [Labs](labs.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
+| [Home](../index.md) | [Lectures](../lectures.md) | [Labs](../labs.md) | [Assignments](../assignments.md) | [Project](../project.md)| [Contact](../contact.md) |
 
 
 # Scoreboard
 
-| [Evaluation1](scores/evaluation1.md) | [Evaluation2](scores/evaluation2.md) |
+| [Evaluation1](evaluation1.md)| [Evaluation2](evaluation2.md)|
 
 ## Evaluation 1
 
 Date: Septmeber 30, 2019
 
-|       |  Age (ACC)| Gender (ACC) | OPN (RMSE) | NEU (RMSE) | EXT (RMSE) | AGR (RMSE) | CON (RMSE) |
+
+|       | Age (ACC) | Gender (ACC) | OPN (RMSE) | NEU (RMSE) | EXT (RMSE) | AGR (RMSE) | CON (RMSE) |
 |-------|--------------|----------:|------------|------------|------------|------------|------------|
 | Baseline|**0.594**|**0.591**|**0.652**|**0.798**|**0.788**|**0.665**|**0.734**|
 | User01 |0.594|0.409|0.652|0.798|0.788|0.665|0.734|
