@@ -14,25 +14,32 @@ def baseline(input_dir: str, output_dir: str, train_profiles_file_path: str):
         os.mkdir(output_dir)
  
     ds = pd.read_csv(train_profiles_file_path)
+    # Drop all rows with 'NA' values, if any.
+    ds.dropna(inplace=True)
+
     # add the age_group column.
     ds = ds.assign(age_group = lambda dt: pd.Series([age_group_string(age) for age in dt["age"]]))
     print(ds)
+    # show a description of the dataset.
+    print(ds.describe())
 
     # find the most frequent age group
     most_frequent_age_group_series = ds.age_group.value_counts(sort=True, ascending=False, dropna=False)
+    print("Persons per age group:")
+    print(most_frequent_age_group_series)
+    
     # take the name of the first row in the series
     most_frequent_age_group = next(age_group for age_group, count in most_frequent_age_group_series.items())
     print("Most frequent age group:", most_frequent_age_group)
-    
     average_gender_value = ds.gender.mean()
     most_common_gender = round(average_gender_value)
-    print("Average gender value:", most_common_gender)
+    print("Average gender value:", average_gender_value)
     print("Most common gender:", most_common_gender)
     
     average_ope = ds.ope.mean()
     average_con = ds.con.mean()
     average_ext = ds.ext.mean()
-    average_agr = ds.age.mean()
+    average_agr = ds.agr.mean()
     average_neu = ds.neu.mean()
     print("average ope:", average_ope)
     print("average con:", average_con)
@@ -53,7 +60,7 @@ def baseline(input_dir: str, output_dir: str, train_profiles_file_path: str):
         ope=average_ope,
         con=average_con,
         ext=average_ext,
-        agr=average_ext,
+        agr=average_agr,
         neu=average_neu
     )
     
