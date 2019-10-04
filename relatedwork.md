@@ -7,7 +7,7 @@ On this page, you can find examples of exisitng work.
 
 1. Personality, Gender, and Age in the Language of Social Media: The Open-Vocabulary Approach.
 A. Schwartz, J. Eichstaedt, M. Kern, L. Dziurzynski, S. Ramones, M. Agrawal, A Shah, M. Kosinski, D. Stillwell, M.E.P. Seligman, L.H. Ungar.
-PLoS ONE, 2013. *The 10th most impactful paper of 2013*.
+PLoS ONE, 2013. **The 10th most impactful paper of 2013**.
 [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073791)
 
 2. Computational Personality Recognition in Social Media.
@@ -28,8 +28,8 @@ Pattern recognition letters, 70, 59-65 (2016).
 
 1. Computer-based personality judgments are more accurate than those made.
 humansby W. Youyou, M. Kosinski*, D. Stillwell.
-Proceedings of the National Academy of Sciences (PNAS), 2015. .
-*The 19th most impactful paper of 2015.*
+Proceedings of the National Academy of Sciences (PNAS), 2015.
+**The 19th most impactful paper of 2015.**
 [paper](https://www.pnas.org/content/112/4/1036.full)
 
 2. User profiling through deep multimodal fusion. 
