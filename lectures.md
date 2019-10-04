@@ -63,7 +63,7 @@ PDS = Python for Data Science
   * Reading: PDS 3
 - October 10
   * Feature selection 
-  * Reading: [KDD tutorial](http://www.public.asu.edu/~jundongl/tutorial/KDD17/KDD17.pdf)
+  * Reading: [An Introduction to Variable and Feature Selection](http://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf), [KDD tutorial](http://www.public.asu.edu/~jundongl/tutorial/KDD17/KDD17.pdf)
   * Optional reading: [Feature Selection for Data and Pattern Recognition](https://www.amazon.com/Feature-Selection-Recognition-Computational-Intelligence/dp/3662456192), [Computational Methods of Feature Selection](https://www.amazon.com/Computational-Methods-Selection-Knowledge-Discovery/dp/1584888784), [A Survey of Feature Selection Techniques](https://www.igi-global.com/chapter/survey-feature-selection-techniques/11077)
   * Feature selection tool [scikit-learn](https://scikit-learn.org/stable/modules/feature_selection.html), [featureminer](http://featureselection.asu.edu/featureminer.php)
   
