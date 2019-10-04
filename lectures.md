@@ -66,36 +66,41 @@ PDS = Python for Data Science
   * Reading: [KDD tutorial](http://www.public.asu.edu/~jundongl/tutorial/KDD17/KDD17.pdf)
   * Feature selection tool [scikit-learn](https://scikit-learn.org/stable/modules/feature_selection.html), [featureminer](http://featureselection.asu.edu/featureminer.php)
   
-7. Week 7
+7. Week 7 (Invited Guest Lectures)
 - October 15
-  * Data Bias: Source and types of data bias
-  * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526)
+  * Geospatial data analysis and Time series by [dr. Behrouz Babaki](https://behrouz-babaki.github.io/) 
+  * 
 - October 17
-  * Bias and Discrimination in Machine Learning: fairness metrics 
-  * Reading: [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
-  * Video: [21 fairness definitions and their politics](https://youtu.be/jIXIuYdnyyk) 
-  * Fairness metric tools: [The Aequitas Toolkit Paper](https://arxiv.org/abs/1811.05577), [The Aequitas Tool](https://github.com/dssg/aequitas)
-  
+  * Privacy-preserving data publishing, Privacy-preserving  machine learning and transparency by [dr. Ulrich Aivodji](https://aivodji.github.io/)
+
 8. Week 8 
 - October 22 
   * Reading week
   
 9. Week 9
+- October 29 
+  * Project presentation
+  *
+  
 - October 31
   * **MIDTERM**: 16:30-18:30 at Z-110
   
 
 10. Week 10
 - November 5
-  * Project presentation
-  *
+  Data Bias: Source and types of data bias
+  * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526)
+  
 - November 7
-  * Text mining (NLP): BOW, n-grams, topic model, and language model
-  *
+  * Bias and Discrimination in Machine Learning: fairness metrics 
+  * Reading: [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
+  * Video: [21 fairness definitions and their politics](https://youtu.be/jIXIuYdnyyk) 
+  * Fairness metric tools: [The Aequitas Toolkit Paper](https://arxiv.org/abs/1811.05577), [The Aequitas Tool](https://github.com/dssg/aequitas)
+ 
   
 11. Week 11
 - November 12
-  *  Time series and GEO location
+  * Text mining (NLP): BOW, n-grams, topic model, and language model
   *
 - November 14
   * Computer Vision and Multimodal
@@ -119,13 +124,11 @@ PDS = Python for Data Science
   
 14. Week 14
 - December 3
-  * Privacy + Transparency+ Explainable data science
+  * project presentation
   *
-
 
 15. Week 15
 - December 17
   * **FINAL**: 16:30-18:59 at Z-110
--  (TBA)
-  * project presentation (TBA)
+
 
