@@ -25,7 +25,7 @@ The project counts for 35% of your final grade.  The project will be graded out 
 
 - In-class  progress  update  on  week  10 (November 5):  5  points.   This  is  a  group  presentation,  with  slides.   All  teammembers should present.  Students who do not present can not get credit for this part.
 
-- Final in-class presentation on week 15 (TBA):  10 points.  This is a group presentation, with slides.  All teammembers should present.  Students who do not present can not get credit for this part.  We will decide at random at the beginning of the lecture on the last weel which teams will present on Tuesday and which teams will present on Thursday. 
+- Final in-class presentation on week 15 (December 23):  10 points.  This is a group presentation, with slides.  All teammembers should present.  Students who do not present can not get credit for this part.  We will decide at random at the beginning of the lecture on the last weel which teams will present on Tuesday and which teams will present on Thursday. 
 
 - Code and documentation:  8 points . This is evaluated based in the readability of the code and all teammembers need to answer coding questions at the final presentation regarding their software to get credit for this part.
 
