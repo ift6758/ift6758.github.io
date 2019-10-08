@@ -30,6 +30,8 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Function Fitting: 1, 8, 11
   * Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
 
-- Assignment 3, due 
-
-
+- Assignment 3, due **October 21**.
+  * Statistical Inference: 2, 6, 7, 13
+  * Statistical Inference exercises: [[english](https://colab.research.google.com/drive/1TBdhLJ9Boo5az0IZn7Pstkhtjj8W0UQx), [french]]
+  * Unsupervised Learning: 2, 4
+  * Unsupervised Learning exercises: [[english](https://colab.research.google.com/drive/19tiMgMZNUi9uwFcWPqeKGi2QWzXEDAlu), [french]]
