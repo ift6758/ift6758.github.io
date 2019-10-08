@@ -14,13 +14,16 @@ The material of the course will integrate the five key facets of an investigatio
 
 In this course, we focus on statistical methods and introduce techniques in different domains to make you familiar with various type of data. Our goal is to educate you to become  not only knowledgable but also responsible data scientist by the end of this course!
 
-## Announcements
-
-- Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
 
 ## Feedback
 
 Please use this [form](https://forms.gle/K43RxbasVvviWaNbA) to provide feedback about the course.
+
+## Announcements
+
+- Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
+- Check the weekly evaluations of the project on the [scoreboard](scoreboard.md) page.
+- If you have personal issues with the mid-term and final exam dates, send us an email.
 
 ## Room & Time
 
