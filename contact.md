@@ -30,8 +30,9 @@ office hour: Monday 9h - 10h30
 - Pravish Sainath (Speaks French & English)
 
 office hour: Thursday 13h30 - 15h  
-             **Exceptions**: Oct  9 (Wednesday) 11h00 - 12h30 instead of Oct 10  and
-                             Oct 16 (Wednesday) 11h30 - 13h00 instead of Oct 17
+             **Exceptions**: <br/>
+              Oct  9 (Wednesday) 11h00 - 12h30 instead of Oct 10 (Thursday) <br/>
+              Oct 16 (Wednesday) 11h30 - 13h00 instead of Oct 17 (Thursday)
                  
 - Bowen Peng (Speaks French & English)
 
