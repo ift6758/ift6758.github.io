@@ -24,14 +24,16 @@ The project counts for 35% of your final grade.  The project will be graded out 
 - Results on the scoreboard on week 5 (September 30):  2 points.  If your results are at least as good as the baseline forall prediction tasks, your team gets full credit for this part.
 
 - In-class  progress  update  on  week  10 (November 5):  5  points.   This  is  a  group  presentation,  with  slides.   All  teammembers should present.  Students who do not present can not get credit for this part.
+**Requirements**: Give an overview of the prediction task, and present statistical analysis of the data using visualization tools. Present the method that you use for each data sourse/task. Provide an overview of the prediction results you obtained by applying the machine learning methods on the public trainset. Note that your score on the scoreboard should beat the baseline for atleast one of the tasks.
 
 - Final in-class presentation on week 15 (December 3):  10 points.  This is a group presentation, with slides.  All teammembers should present.  Students who do not present can not get credit for this part.  We will decide at random at the beginning of the lecture on the last weel which teams will present on Tuesday and which teams will present on Thursday. 
+**Requirements**: Give an overview of the prediction task, and present statistical analysis of the data using visualization tools. Present the method that you use for each data sourse/task. You need to use all three sources in your software. Provide an overview of the prediction results you obtained by applying the machine learning methods on the public trainset. Note that your score on the scoreboard should atleast beat the baseline for all three tasks.
 
 - Code and documentation on week 15 (December 23):  8 points . This is evaluated based in the readability of the code and all teammembers need to answer coding questions at the final presentation regarding their software to get credit for this part.
 
 - Report on week 15 (December 23):  10 points (= 8 points group report + 2 points individual report)
 
-Your grade for the progress updates is based on a 5 minute presentation in class (approx. 2-3 slides) and the results of your software so far.
+Your grade for the progress updates is based on a 5 minute presentation in class (approx. 2-3 slides per each team member) and the results of your software so far.
 
 ## Deliverables
 
