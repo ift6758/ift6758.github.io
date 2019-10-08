@@ -22,15 +22,17 @@ office hour: Wednesday 16h30 - 18h
 - Dmitriy Serdyuk (Speaks English)
 
 office hour: Tuesday 14h30 - 16h
- 
+
 - Arian Hosseini (Speaks English)
 
 office hour: Monday 9h - 10h30
  
 - Pravish Sainath (Speaks French & English)
 
-office hour: Thursday 13h30 - 15h
-
+office hour: Thursday 13h30 - 15h  
+             (**Exceptions**: Oct 19, 11h00 - 12h30 instead of Oct 10 and 
+                              Oct 16, 11h30 - 13h00 instead of Oct 17)
+                 
 - Bowen Peng (Speaks French & English)
 
 office hour: Monday 13h30 - 15h
