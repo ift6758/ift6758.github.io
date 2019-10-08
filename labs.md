@@ -1,14 +1,5 @@
 | [Home](index.md) | [Lectures](lectures.md) | [Labs](labs.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
 
-## Lab Practical
-
-- Lab exercise 1
-
-- Lab exercise 2
-
-- Lab exercise 3
-
-
 ## Lab Materials
 
 1. Week 1 (September 2 -- September 8):
