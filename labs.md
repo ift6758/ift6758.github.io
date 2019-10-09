@@ -7,8 +7,7 @@
 
 2. Week 2 (September 9 -- September 15):
 - Introduction to Python, [notebook](https://colab.research.google.com/drive/1ghrTY960LyDJ2WokoxqrSnL7Ojbq2FOW), [solution](https://colab.research.google.com/drive/1pX9xhyLIUE1OJtfXUvlN8RALkJfsWGVE), [notebook download](lab_materials/lab1_python/intro.ipynb), [solution download](lab_materials/lab1_python/intro_solution.ipynb)
-  
-  More resources about Python:
+- More resources about Python:
   - [Beginner's guide to Python](https://wiki.python.org/moin/BeginnersGuide)
   - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
   - [Style guide for Python code (PEP8)](https://www.python.org/dev/peps/pep-0008/)
@@ -27,20 +26,13 @@
 4. Week 4 (September 23 -- September 29)
 - Computing resources and setup for the project. [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 , [Putty](https://www.putty.org/)
-
-The simplest way to make use of a library on the server is to first load the corresponding module, e.g.,
-
+- The simplest way to make use of a library on the server is to first load the corresponding module, e.g.,
+```module load miniconda/3
 ```
-module load miniconda/3
-
-```
-
 5. Week 5 (September 30 -- October 6)
 - Introduction to Pandas, [notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
-
 6. Week 6
 - Practical Data Science with Scikit-Learn, [High Dimension Demo](https://colab.research.google.com/drive/1tlTKRAB_nfo5FTib9aKKwglC-xy1yIM6), [MNIST Classification Demo](https://colab.research.google.com/drive/1a88XO9yJCfFaRnMt4j8Pj_ir2PvkQ793), [MNIST Generation Demo](https://colab.research.google.com/drive/1TOi2SQ9womT-B9mcRAFyIoGBkXFWvnW8), [IMDB Movie Reviews Classification Demo](https://colab.research.google.com/drive/1_enQLmCqONkHoshdcRHhnN46RbJ-TFEZ), [Slides](https://docs.google.com/presentation/d/14R7bleKsUPmFNXvJxsIYUAkaFMXFCV6yKUMd36BDesY/edit?usp=sharing).
-
 7. Week 7
 
 8. Week 8
