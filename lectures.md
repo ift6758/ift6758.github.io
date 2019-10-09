@@ -125,7 +125,7 @@ PDS = Python for Data Science
   *
 
 15. Week 15
-- December 17
-  * **FINAL**: 16:30-18:59 at Z-110
+- December 10
+  * **FINAL**: 16:30-18:59 at Z310 and Z330
 
 
