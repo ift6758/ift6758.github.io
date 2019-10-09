@@ -50,6 +50,8 @@ Your final score for the course will be computed using the following weights:
 - Mid-term: **15%**
 - Final: **25%** 
 
+ATTENTION regarding fraud and plagiarism: The University of Montreal now has a strict policy in case of fraud or plagiarism. If an infraction is found, the professor is required to report to the director of the department. An administrative procedure is then automatically triggered with the following consequences: the offense is noted in your file, and a sanction is decided (which can be serious and go to dismissal in case of recidivism). It is important that you do the work yourself!
+
 ## Reading 
 
 - Jake VanderPlas, [Python Data Science Handbook](https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf), O'Reilly Media; 1 edition (2016) - Free book
