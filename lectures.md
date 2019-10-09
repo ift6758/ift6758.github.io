@@ -88,7 +88,7 @@ PDS = Python for Data Science
 10. Week 10
 - November 5
   * Project presentation
-  
+  *
 - November 7
   * Data Bias: Source and types of data bias, bias and Discrimination in Machine Learning: fairness metrics 
   * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526), [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
