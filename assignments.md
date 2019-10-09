@@ -21,8 +21,7 @@ Due to multiple requests, we extend the deadline for both survuys:
   
 - Assignment 1, due **September 30**. Submit your code on the server.
   * Project: Baseline predictor [[english](assignments/Project_Assignment_1(EN).pdf), [french](assignments/Project_Assignment_1(FR).pdf)]
-  
-<span style="color:red"> If you cannot finish your software for the first round of evaluation, you can still get 2 points of the first project assignment in the second round of evaluation, submission due **October 7**. However, teams that participate in the first round have the advatnage of checking the performance of their software at [scoreboard](scoreboard.md) to improve their software for the second round.</span>
+  * *If you cannot finish your software for the first round of evaluation, you can still get 2 points of the first project assignment in the second round of evaluation, submission due **October 7**. However, teams that participate in the first round have the advatnage of checking the performance of their software at [scoreboard](scoreboard.md) to improve their software for the second round.*
 
 - Assignment 2, due **October 10**. Upload the PDF to your gradescope account.
   * Wrangling and Visualization: 4, 9, 12
