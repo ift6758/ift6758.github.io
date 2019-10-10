@@ -1,7 +1,7 @@
 | [Home](index.md) | [Lectures](lectures.md) | [Labs](labs.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
 
 
-### Lecture Slides
+## Lecture Slides
 
 ISLR = Introduction to Statistical Learning
 PDS = Python for Data Science
