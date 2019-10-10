@@ -2,11 +2,13 @@
 
 ## Project Description
 
-The goal of this project is to build a system for automatic recognition of the age, gender, and personality of social media users. When given as input users' genderate content (e.g., text, image and relations), this system should return as output the age, gender and personality trait scores of that user. [more info](lectures/Project-hints.pdf)
+The goal of this project is to build a system for automatic recognition of the age, gender, and personality of social media users. When given as input users' genderate content (e.g., text, image and relations), this system should return as output the age, gender and personality trait scores of that user. 
 
-## Server Setup
+## Setup
 
 To access a breif instruction to access the server click [here](https://docs.google.com/document/d/1ncpyEYqiVgunzAvFALPvvBytYpJV53-_cLXb6evmqOc/edit).
+
+Need more info to start working on the project? check [here](lectures/Project-hints.pdf).
 
 ## Scoreboard
 
