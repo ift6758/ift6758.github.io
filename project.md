@@ -8,7 +8,7 @@ The goal of this project is to build a system for automatic recognition of the a
 
 To access a breif instruction to access the server click [here](https://docs.google.com/document/d/1ncpyEYqiVgunzAvFALPvvBytYpJV53-_cLXb6evmqOc/edit).
 
-Need more info to build your software for the project? check [here](lectures/Project-hints.pdf).
+Need more info to build your software for the project? check [here](lectures/Project_hints.pdf).
 
 ## Scoreboard
 
