@@ -25,9 +25,9 @@ Due to multiple requests, we extend the deadline for both survuys:
 
 - Assignment 2, due **October 10**. Upload the PDF to your gradescope account.
   * Wrangling and Visualization: 4, 9, 12
-  * Wrangling and Visualization exercises [[english](https://colab.research.google.com/drive/10nTBPokrkrat8KYsCayfvA2CSZRM0VdZ#scrollTo=luhc8KH_8wYz), [french](https://colab.research.google.com/drive/13l69m9RJYnO_AOIM0x4zKN7tDgcQHDa2)]
+  * Wrangling and Visualization exercises [[english](https://colab.research.google.com/drive/10nTBPokrkrat8KYsCayfvA2CSZRM0VdZ#scrollTo=luhc8KH_8wYz), [french](https://colab.research.google.com/drive/13l69m9RJYnO_AOIM0x4zKN7tDgcQHDa2)], solutions [[english](https://colab.research.google.com/drive/1rbT5CquQtMOseHBlE3EVzSC_Qq2ez_Rz)]
   * Function Fitting: 1, 8, 11
-  * Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)]
+  * Function fitting exercises [[english](https://colab.research.google.com/drive/1hIuDnr-s7h1x8ccayRBDqx__YCtG5UqL), [french](https://colab.research.google.com/drive/1X-9D7YgFlvWLFgTOkNAJpAiooumurhMH)], solutions [[english](https://colab.research.google.com/drive/17Lw6o-kAtjkkmyL6J-czhVD2Hl_ROprM)]
 
 - Assignment 3, due **October 21**.
   * Statistical Inference: 2, 6, 7, 13
