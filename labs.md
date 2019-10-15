@@ -35,6 +35,7 @@
 - Practical Data Science with Scikit-Learn, [High Dimension Demo](https://colab.research.google.com/drive/1tlTKRAB_nfo5FTib9aKKwglC-xy1yIM6), [MNIST Classification Demo](https://colab.research.google.com/drive/1a88XO9yJCfFaRnMt4j8Pj_ir2PvkQ793), [MNIST Generation Demo](https://colab.research.google.com/drive/1TOi2SQ9womT-B9mcRAFyIoGBkXFWvnW8), [IMDB Movie Reviews Classification Demo](https://colab.research.google.com/drive/1_enQLmCqONkHoshdcRHhnN46RbJ-TFEZ), [Slides](https://docs.google.com/presentation/d/14R7bleKsUPmFNXvJxsIYUAkaFMXFCV6yKUMd36BDesY/edit?usp=sharing).
 7. Week 7
 - Machine learning workflow and git workflow.
+   - [dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
    - [notebook](https://colab.research.google.com/drive/1dyiLBwIoi3kjdgAy10nxDg4LhKD3MLvc)
    - [simple experiments](https://github.com/dmitriy-serdyuk/simple_experiment)
 
