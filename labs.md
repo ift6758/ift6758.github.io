@@ -38,7 +38,6 @@
    - [dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
    - [notebook](https://colab.research.google.com/drive/1dyiLBwIoi3kjdgAy10nxDg4LhKD3MLvc)
    - [simple experiments](https://github.com/dmitriy-serdyuk/simple_experiment)
-
 8. Week 8
 
 9. Week 9
