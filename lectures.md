@@ -69,7 +69,7 @@ PDS = Python for Data Science
   
 7. Week 7 (Invited Guest Lectures)
 - October 15
-  * Geospatial and Time series data analysis by [dr. Behrouz Babaki](https://behrouz-babaki.github.io/) 
+  * [Geospatial and Time series data analysis](lectures/geolocation.pdf) by [dr. Behrouz Babaki](https://behrouz-babaki.github.io/) 
   * Optional reading: [Python Geospatial Development](https://www.amazon.ca/Python-Geospatial-Development-Erik-Westra/dp/1849511543)
   * Tools: [Shapely](https://shapely.readthedocs.io/en/stable/manual.html), [Basemap](https://matplotlib.org/basemap/), [geopandas](http://geopandas.org/)
 - October 17
