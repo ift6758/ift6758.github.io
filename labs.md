@@ -36,6 +36,7 @@
 7. Week 7
 - Machine learning workflow and git workflow.
    - [notebook](https://colab.research.google.com/drive/1dyiLBwIoi3kjdgAy10nxDg4LhKD3MLvc)
+   - [simple experiments][/lab_materials/simple_experiment/]
 
 8. Week 8
 
