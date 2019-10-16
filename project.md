@@ -36,7 +36,7 @@ The project counts for 35% of your final grade.  The project will be graded out 
 
 - Report on week 15 (December 23):  10 points (= 8 points group report + 2 points individual report)
 
-Your grade for the progress updates is based on a 5 minute presentation in class (approx. 2-3 slides per each team member) and the results of your software so far.
+Your grade for the progress updates is based on a 7 minute presentation in class (approx. 1-2 slides per each team member) and the results of your software so far.
 
 ## Deliverables
 
