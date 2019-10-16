@@ -75,7 +75,7 @@ PDS = Python for Data Science
 - October 17
   * [Privacy and Transparency in Machine Learning](lectures/privacy.pdf) by [dr. Ulrich Aivodji](https://aivodji.github.io/)
   * Optional reading: [Composition Attacks and Auxiliary Information in DataPrivacy](https://arxiv.org/abs/0803.0032), [A Survey Of Methods For Explaining Black Box Models](https://arxiv.org/abs/1802.01933), [Privacy risk in machine learning- Analyzing the connection to overfitting](https://arxiv.org/abs/1709.01604), [On the Protection of Private Information in Machine Learning Systems-Two Recent Approaches](https://arxiv.org/abs/1708.08022), [fairwashing-the risk of rationaliztion](https://arxiv.org/abs/1901.09749)
-  * [Video](https://www.youtube.com/watch?v=pT19VwBAqKA)
+  * Protecting Privacy with MATH: [Video](https://www.youtube.com/watch?v=pT19VwBAqKA)
 8. Week 8 
 - October 22 
   * Reading week
