@@ -36,4 +36,4 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Unsupervised Learning exercises: [[english](https://colab.research.google.com/drive/19tiMgMZNUi9uwFcWPqeKGi2QWzXEDAlu), french]
   
 - Assignment 4, due **November 4**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team).
-  * Project: Mid-term presentation [english](assignments/Assignment_4(EN).pdf)
+  * Project: Mid-term presentation [[english](assignments/Assignment_4(EN).pdf), french]
