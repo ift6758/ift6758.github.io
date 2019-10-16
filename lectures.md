@@ -73,10 +73,9 @@ PDS = Python for Data Science
   * Optional reading: [Python Geospatial Development](https://www.amazon.ca/Python-Geospatial-Development-Erik-Westra/dp/1849511543)
   * Tools: [Shapely](https://shapely.readthedocs.io/en/stable/manual.html), [Basemap](https://matplotlib.org/basemap/), [geopandas](http://geopandas.org/)
 - October 17
-  * Privacy and Transparency in Machine Learning: privacy-preserving data publishing, privacy-preserving machine learning and transparency by [dr. Ulrich Aivodji](https://aivodji.github.io/)
-  * Optional reading: TBA
+  * [Privacy and Transparency in Machine Learning](lectures/privacy.pdf) by [dr. Ulrich Aivodji](https://aivodji.github.io/)
+  * Optional reading: [Composition Attacks and Auxiliary Information in DataPrivacy](https://arxiv.org/abs/0803.0032), [A Survey Of Methods For Explaining Black Box Models](https://arxiv.org/abs/1802.01933), [Privacy risk in machine learning- Analyzing the connection to overfitting](https://arxiv.org/abs/1709.01604), [On the Protection of Private Information in Machine Learning Systems-Two Recent Approaches](https://arxiv.org/abs/1708.08022), [fairwashing-the risk of rationaliztion](https://arxiv.org/abs/1901.09749)
   *
-
 8. Week 8 
 - October 22 
   * Reading week
