@@ -34,3 +34,6 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Statistical Inference exercises: [[english](https://colab.research.google.com/drive/1TBdhLJ9Boo5az0IZn7Pstkhtjj8W0UQx), french]
   * Unsupervised Learning: 2, 4
   * Unsupervised Learning exercises: [[english](https://colab.research.google.com/drive/19tiMgMZNUi9uwFcWPqeKGi2QWzXEDAlu), french]
+  
+- Assignment 4, due **November 4**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team).
+  * Project: Mid-term presentation 
