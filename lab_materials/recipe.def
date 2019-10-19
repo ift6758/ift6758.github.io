@@ -1,0 +1,18 @@
+BootStrap: docker
+From: ubuntu:18.04
+
+%post
+    apt -y update
+    apt -y upgrade
+    apt -y install software-properties-common
+    apt -y install python3-pip
+    apt -y install python-pip
+    apt -y install build-essential libssl-dev libffi-dev python3-dev python-dev
+
+    pip3 install numpy pandas comet_ml Pillow pyyaml scikit-learn h2o
+    pip3 install --no-cache-dir torch torchvision matplotlib ipython
+    pip3 install --no-cache-dir tensorflow-gpu
+
+    pip install numpy pandas comet_ml Pillow pyyaml scikit-learn h2o
+    pip install --no-cache-dir torch torchvision matplotlib ipython
+    pip install --no-cache-dir tensorflow-gpu
