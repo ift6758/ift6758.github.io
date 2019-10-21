@@ -2,7 +2,7 @@
 
 Assignments are count for 25% of your final grade. Most of the assignments are graded with [gradescope](https://www.gradescope.com/). You need to create an account and add yourself to the course with the entry code: MPKB3Y.
 
-To access a guideline that will help you with submitting your homework on gradescope, click [here](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://gradescope-static-assets.s3-us-west-2.amazonaws.com/help/submitting_hw_guide.pdf).
+To access a guideline that will help you with submitting your homework on gradescope, click [here](https://gradescope-static-assets.s3-us-west-2.amazonaws.com/help/submitting_hw_guide.pdf).
 
 Homework expectations,
 
