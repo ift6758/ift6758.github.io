@@ -22,7 +22,7 @@ You can find papers [here](relatedwork.md) that describe how other people have a
 
 The project counts for 35% of your final grade.  The project will be graded out of a total of 35 points as follows:
 
-- Results on the scoreboard on week 5 (September 30):  2 points.  If your results are at least as good as the baseline forall prediction tasks, your team gets full credit for this part.[[english](assignments/Project_Assignment_1(EN).pdf), [french](assignments/Project_Assignment_1(FR).pdf)]
+- Results on the scoreboard on week 5 (September 30):  2 points.  If your results are at least as good as the baseline forall prediction tasks, your team gets full credit for this part. [[english](assignments/Project_Assignment_1(EN).pdf), [french](assignments/Project_Assignment_1(FR).pdf)]
 
 - In-class  progress  update  on  week  10 (November 5):  5  points.   This  is  a  group  presentation,  with  slides.   All  teammembers should present.  Students who do not present can not get credit for this part. [[english](assignments/Assignment_4(EN).pdf), french] 
 
