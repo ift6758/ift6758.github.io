@@ -21,7 +21,7 @@ Please use this [form](https://forms.gle/K43RxbasVvviWaNbA) to provide feedback 
 
 ## Announcements
 
-- Mid-term exam will be based on the content covered in the class: week 0 till the end of week 6 (the feature selection slides that are covered in the class are: slides 1 - 17 and 30 - 59). The exam will not have any questions from the guest lectures of week 7.
+- Mid-term exam will be based on the content covered in the class: week 0 till the end of week 6 (the feature selection slides that are covered in the class are: slides 1 - 17 and 30 - 59). The exam will not have any questions from the guest lectures of week 7. Note that the exam will be closed book. No cheat sheet or computer is allowed during the exam.
 - Mid-term project presentation will take place on Tuesday November 5. All the expectations for the project have been posted to the [project](project.md) page.
 - Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
 - Check the weekly evaluations of the project on the [scoreboard](scoreboard.md) page.
