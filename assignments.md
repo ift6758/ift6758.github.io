@@ -8,7 +8,7 @@ Homework expectations,
 
 - Completely explain your solutions. Correct answers without clear explanations will not receive full credit.
 - Homeworks must be completed individually. Discussion with others is okay, but you must write solutions yourself.
-- All code used to arrive at answers is submitted along with answers. If you submit an export of an IPython notebook, you must also separately submit code as a `.py` file.
+- All code used to arrive at answers is submitted along with answers. 
 - Code will be graded according to style in addition to functionality.
 
 ## Survey
