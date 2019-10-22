@@ -11,7 +11,7 @@
 
 Date: October 21, 2019
 
-|       | Age (ACC) | Gender (ACC) | OPN (RMSE) | NEU (RMSE) | EXT (RMSE) | AGR (RMSE) | CON (RMSE) | Full Grade |  Rank |
+|       | Age (ACC) | Gender (ACC) | OPN (RMSE) | NEU (RMSE) | EXT (RMSE) | AGR (RMSE) | CON (RMSE) | Full Grade |  Rank :trophy:|
 |-------|--------------|----------:|------------|------------|------------|------------|------------|------------|-------|
 | Baseline|**0.594**|0.591|**0.652**|**0.798**|**0.788**|**0.665**|**0.734**|-|
 | User01 |-|-|-|-|-|-|-|-|
