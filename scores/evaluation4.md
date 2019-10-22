@@ -11,7 +11,7 @@
 
 Date: October 21, 2019
 
-Numbers marked in **bold** are the best score in the task compared to the baseline.
+Numbers marked in **bold** are the best score of the task for this evaluation compared to other teams and the baseline.
 
 
 |       | Age (ACC) | Gender (ACC) | OPN (RMSE) | NEU (RMSE) | EXT (RMSE) | AGR (RMSE) | CON (RMSE) | Full Grade |  Rank 🏆|
