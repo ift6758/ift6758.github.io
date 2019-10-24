@@ -114,8 +114,8 @@ PDS = Python for Data Science
   
 13. Week 13
 - November 26
-  * Pattern mining and associate rule mining
-  *
+  * Pattern mining and associate rule mining: Apriori algorithm
+  * Tools: [Apyori](https://pypi.org/project/apyori/)
 - November 28
   * Big Data: Data at scale
   * Tools: [Apache Hadoop](https://hadoop.apache.org/)
