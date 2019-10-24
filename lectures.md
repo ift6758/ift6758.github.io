@@ -117,8 +117,8 @@ PDS = Python for Data Science
   * Pattern mining and associate rule mining
   *
 - November 28
-  * Data at scale
-  *
+  * Big Data: Data at scale
+  * Tools: [Apache Hadoop](https://hadoop.apache.org/)
   
 14. Week 14
 - December 3
