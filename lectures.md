@@ -99,7 +99,7 @@ PDS = Python for Data Science
 - November 12
   * Text mining (NLP): BOW, n-grams, topic model, and language model
   * Reading: [Speech and Language Processing, Jurafsky and Martn, 2nd ed. (plus)](https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf): 1 - 6
-  *
+  * Tools: [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), Java: Stanford CoreNLP, Apache OpenNLP
 - November 14
   * Computer Vision and Multimodal
   *
