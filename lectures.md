@@ -98,10 +98,11 @@ PDS = Python for Data Science
 11. Week 11
 - November 12
   * Text mining (NLP): BOW, n-grams, topic model, and language model
-  * Reading: [Speech and Language Processing, Jurafsky and Martn, 2nd ed. (plus)](https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf): 1 - 6
+  * Reading: [Speech and Language Processing, Jurafsky and Martn, 2nd ed. (plus)](https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf): Chapters 1 - 6
   * Tools: Python: [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), Java: Stanford CoreNLP, Apache OpenNLP
 - November 14
   * Computer Vision and Multimodal
+  * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)
   * Tools: Python: [OpenCV](https://opencv.org/)  
 12. Week 12
 - November 19
