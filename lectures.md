@@ -110,7 +110,7 @@ PDS = Python for Data Science
   * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/)
 - November 21
   * Ensemble methods: bagging/boosting
-  *
+  * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
   
 13. Week 13
 - November 26
