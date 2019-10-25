@@ -170,8 +170,6 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
     # Create a multihot likes matrix of booleans (rows = userids, cols = likes), by batch
     batch_size = 1000
     
-    print("pages to keep:", like_ids_to_keep)
-
     # Create empty DataFrame with sub_ids as index list
     relation_data = pd.DataFrame(sub_ids, columns = ['userid'])
     relation_data.set_index('userid', inplace=True)
@@ -186,11 +184,11 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
         ## THIS is the slow part:
         relHot = pd.get_dummies(filtered_table, columns=['like_id'], prefix="")
         ##
-        relHot = relHot.groupby(['userid']).sum() # this makes userid the index
+        relHot = relHot.groupby(['userid']).sum().astype(float) # this makes userid the index
         
         relation_data = pd.concat([relation_data, relHot], axis=1, sort=True)
 
-    relation_data.fillna(0, inplace=True)
+    relation_data.fillna(0.0, inplace=True)
 
     # will be different if users in relation.csv are not in sub_ids
     if not np.array_equal(relation_data.index, sub_ids):
@@ -374,7 +372,7 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
     # concatenate all scaled features into a single DataFrame
     test_features = pd.concat([feat_scaled, likes_data], axis=1, sort=False)
 
-    return test_features
+    return feat_scaled, likes_data
 
 
 def get_train_val_sets(features, labels, val_prop):

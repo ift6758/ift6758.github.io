@@ -22,11 +22,15 @@ class HyperParameters(ParseableFromCommandLine):
 
     # number of individual 'pages' that were kept during preprocessing of the 'likes'.
     # This corresponds to the number of entries in the multi-hot like vector.
-    num_like_pages: int = 10_000
+    num_like_pages: int = 5
     # wether or not Dropout layers should be used
     use_dropout: bool = True
     # the dropout rate
     dropout_rate: float = 0.5
+
+    num_text_features: int = 91
+    num_image_features: int = 63
+
 
 
 
@@ -38,13 +42,11 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
     # Image
     
     # defining the inputs:
-    num_image_features = 65
-    image_features = tf.keras.Input([num_image_features], dtype=tf.float32, name="image_features")
-    
-    num_text_features = 91
-    text_features = tf.keras.Input([num_text_features], dtype=tf.float32, name="text_features")
+    image_features = tf.keras.Input([hparams.num_image_features], dtype=tf.float32, name="image_features")
+    text_features = tf.keras.Input([hparams.num_text_features], dtype=tf.float32, name="text_features")
+    likes = tf.keras.Input([hparams.num_like_pages], dtype=tf.bool, name="likes_features")
 
-    likes = tf.keras.Input(name="likes", shape=[hparams.num_like_pages], dtype=tf.bool)
+    
     # TODO: maybe use some kind of binary neural network on the likes? casting booleans to floats is so ineficient!
     likes_float = tf.cast(likes, tf.float32)
 
