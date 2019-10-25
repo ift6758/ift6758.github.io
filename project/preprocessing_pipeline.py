@@ -169,10 +169,15 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
     total_num_pages = len(like_ids_to_keep)
     # Create a multihot likes matrix of booleans (rows = userids, cols = likes), by batch
     batch_size = 1000
-    results: List[pd.DataFrame] = []
+    
+    print("pages to keep:", like_ids_to_keep)
+
+    # Create empty DataFrame with sub_ids as index list
+    relation_data = pd.DataFrame(sub_ids, columns = ['userid'])
+    relation_data.set_index('userid', inplace=True)
 
     for start_index in range(0, total_num_pages, batch_size):
-        end_index = min(start_index + batch_size, total_num_pages-1)
+        end_index = min(start_index + batch_size, total_num_pages)
 
         # sets are better for membership testing than lists. 
         like_ids_for_this_batch = set(like_ids_to_keep[start_index:end_index])
@@ -182,16 +187,18 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
         relHot = pd.get_dummies(filtered_table, columns=['like_id'], prefix="")
         ##
         relHot = relHot.groupby(['userid']).sum() # this makes userid the index
-        results.append(relHot)
-    
-    relation_data = pd.concat(results, axis=1, sort=True)
+        
+        relation_data = pd.concat([relation_data, relHot], axis=1, sort=True)
 
-    # TODO: Why do we fill 'na'? In which case would you find some?
-    relation_data.fillna(0)
+    relation_data.fillna(0, inplace=True)
 
     # will be different if users in relation.csv are not in sub_ids
     if not np.array_equal(relation_data.index, sub_ids):
-        raise Exception('userIds do not match between relation file and id list')
+        raise Exception(f"""userIds do not match between relation file and id list:
+    {relation_data.index}
+    {sub_ids}
+    
+    """)
       
     return relation_data
 
