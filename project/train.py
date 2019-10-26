@@ -15,7 +15,7 @@ import pandas as pd
 import simple_parsing
 import tensorflow as tf
 
-from simple_parsing import ParseableFromCommandLine
+from simple_parsing import ArgumentParser
 
 from model import HyperParameters, get_model
 from preprocessing_pipeline import preprocess_train
@@ -24,8 +24,8 @@ DEBUG = "fabrice" in gethostname()
 today_str = (datetime.now().strftime("%Y-%m-%d"))
 
 @dataclass()
-class TrainConfig(ParseableFromCommandLine):
-    log_dir: str = f"checkpoints/{today_str}" if DEBUG else f"submissions/checkpoints/{today_str}"
+class TrainConfig():
+    log_dir: str = f"checkpoints/{today_str}"
     """
     The directory where the model checkpoints, as well as logs and event files should be saved at.
     """
@@ -185,15 +185,15 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = ArgumentParser()
     
-    HyperParameters.add_arguments(parser)
-    TrainConfig.add_arguments(parser)
+    parser.add_arguments(HyperParameters, "hparams")
+    parser.add_arguments(TrainConfig, "train_config")
 
     args = parser.parse_args()
     
-    hparams = HyperParameters.from_args(args)
-    train_config = TrainConfig.from_args(args)
+    hparams: HyperParameters = args.hparams
+    train_config: TrainConfig = args.train_config
     
     model = train(hparams, train_config)
     # save_path = os.path.join(train_config.log_dir, "model_final.h5")
