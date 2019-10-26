@@ -6,10 +6,9 @@ import tensorflow as tf
 import dataclasses
 from dataclasses import dataclass
 # install simple-parsing with `pip install simple-parsing` 
-from simple_parsing import ParseableFromCommandLine
 
 @dataclass
-class HyperParameters(ParseableFromCommandLine):
+class HyperParameters():
     # the batch size
     batch_size: int = 32
     # the number of dense layers in our model.
