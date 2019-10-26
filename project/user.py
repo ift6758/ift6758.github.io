@@ -1,6 +1,6 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import textwrap
-
+import numpy as np
 
 def age_group_string(age: float) -> str:
     """returns the string for the age group:
@@ -16,24 +16,23 @@ def age_group_string(age: float) -> str:
     else:
         return "50-xx"
 
-
 @dataclass
 class User():
     userid: str
-    age: float
-    gender: float
+    gender: int
     ope: float
     con: float
     ext: float
     agr: float
     neu: float
-    age_group: str = ""
+    age_group_id: int
+    age_group_string: str = field(init=False)
 
     def to_xml(self):
         return textwrap.dedent(f"""\
         <user
             id="{self.userid}"
-            age_group="{self.age_group}"
+            age_group="{self.age_group_string}"
             gender="{self.gender_string}"
             extrovert="{self.ext}"
             neurotic="{self.neu}"
@@ -43,13 +42,18 @@ class User():
         />""")
     
     def __post_init__(self):
-        if not self.age_group:
-            self.age_group = age_group_string(self.age)
+        self.age_group_string = age_group_string(self.age_group_id)
+
+        self.ope = float(self.ope)
+        self.con = float(self.con)
+        self.ext = float(self.ext)
+        self.agr = float(self.agr)
+        self.neu = float(self.neu)
 
     @property 
     def gender_string(self) -> str:
-        assert self.gender in (0.0, 1.0), "gender should only be 0.0 or 1.0"
-        if self.gender == 0.:
+        assert self.gender in (0, 1), "gender should only be 0.0 or 1.0"
+        if self.gender == 0:
             return "male"
         else:
             return "female"

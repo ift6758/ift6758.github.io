@@ -18,7 +18,7 @@ class HyperParameters(ParseableFromCommandLine):
     dense_units: int = 256
     
     # the activation function used after each dense layer
-    activation: str = "relu"
+    activation: str = "tanh"
 
     # number of individual 'pages' that were kept during preprocessing of the 'likes'.
     # This corresponds to the number of entries in the multi-hot like vector.
@@ -42,6 +42,7 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
     # Image
     
     # defining the inputs:
+    # userid         =    tf.keras.Input([], dtype=tf.string, name="userid")
     image_features =    tf.keras.Input([hparams.num_image_features], dtype=tf.float32, name="image_features")
     text_features  =    tf.keras.Input([hparams.num_text_features], dtype=tf.float32, name="text_features")
     likes_features =    tf.keras.Input([hparams.num_like_pages], dtype=tf.bool, name="likes_features")

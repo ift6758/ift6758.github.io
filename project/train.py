@@ -83,9 +83,11 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
 
     mins, maxes = train_data.features_min_max
     with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_max.csv"), "w") as f:    
-        maxes.to_csv(f, header=True)
+        # maxes.to_csv(f, header=True)
+        f.write(",".join(str(v) for v in maxes))
     with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_min.csv"), "w") as f:
-        mins.to_csv(f, header=True)
+        # mins.to_csv(f, header=True)
+        f.write(",".join(str(v) for v in mins))
     with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_image_means.csv"), "w") as f:
         image_means = train_data.image_means
         f.write(",".join(str(v) for v in image_means))
@@ -95,7 +97,6 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
     
     column_names = list(features.columns)
     # print("number of columns:", len(column_names))
-    # print(column_names)
     
     assert "faceID" not in column_names
     assert "userId" not in column_names
@@ -149,7 +150,6 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
     return train_dataset, valid_dataset
 
 def train(hparams: HyperParameters, train_config: TrainConfig):
-
     # Create the required directories if not present.
     os.makedirs(train_config.log_dir, exist_ok=True)
     os.makedirs(train_config.train_features_characteristics_save_dir, exist_ok=True)
@@ -176,7 +176,7 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
         tf.keras.callbacks.TensorBoard(log_dir = train_config.log_dir)
     ]
     model.fit(
-        train_dataset,
+        train_dataset.repeat(1000) if DEBUG else train_dataset,
         validation_data=valid_dataset,
         epochs=train_config.epochs,
         callbacks=training_callbacks
@@ -197,5 +197,5 @@ if __name__ == "__main__":
     train_config = TrainConfig.from_args(args)
     
     model = train(hparams, train_config)
-    save_path = os.path.join(train_config.log_dir, "model_final.h5")
-    model.save(save_path)
+    # save_path = os.path.join(train_config.log_dir, "model_final.h5")
+    # model.save(save_path)

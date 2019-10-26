@@ -182,7 +182,7 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
 
         filtered_table = relation[relation['like_id'].isin(like_ids_for_this_batch)]
         ## THIS is the slow part:
-        relHot = pd.get_dummies(filtered_table, columns=['like_id'], prefix="")
+        relHot = pd.get_dummies(filtered_table, columns=['like_id'], prefix="", prefix_sep="")
         ##
         relHot = relHot.groupby(['userid']).sum().astype(float) # this makes userid the index
         
@@ -354,7 +354,7 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
 
     # image_data: pandas dataframe of oxford data
     # image_min_max: a tupple of 2 pandas series, the min and max values from oxford training features
-    image_data_raw = get_image_raw(data_dir, sub_ids)
+    image_data_raw = get_image_raw(data_dir)
     image_data = get_image_clean(sub_ids, image_data_raw, image_means_train)
 
     '''
@@ -368,7 +368,8 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
 
     # multi-hot matrix of likes from train data
     likes_data = get_relations(data_dir, sub_ids, likes_kept_train)
-
+    likes_data = likes_data.astype("bool")
+    print(likes_data)
     # concatenate all scaled features into a single DataFrame
     test_features = pd.concat([feat_scaled, likes_data], axis=1, sort=False)
 
