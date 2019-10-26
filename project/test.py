@@ -17,20 +17,15 @@ from train import TrainConfig
 
 
 def test_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: TrainConfig):
-    # maxes = pd.read_csv(, index_col=0, dtype=float)
-    # mins = pd.read_csv(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_min.csv"), index_col=0, dtype=float)
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_max.csv")) as f:
+    with open(os.path.join(train_config.log_dir, "train_features_max.csv")) as f:
         maxes = np.asarray([float(v)
                            for v in f.readline().split(",") if v.strip() != ""])
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_min.csv")) as f:
+    with open(os.path.join(train_config.log_dir, "train_features_min.csv")) as f:
         mins = np.asarray([float(v)
                           for v in f.readline().split(",") if v.strip() != ""])
-    # df = pd.read_csv(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_max.csv"), index_col=False, header=0);
-    # print(maxes)
-    # exit()
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_likes.csv")) as f:
+    with open(os.path.join(train_config.log_dir, "train_features_likes.csv")) as f:
         likes_kept_train = [int(like) for like in f.readline().split(",") if like.strip() != ""]
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_image_means.csv")) as f:
+    with open(os.path.join(train_config.log_dir, "train_features_image_means.csv")) as f:
         parts = [float(v) for v in f.readline().split(",") if v.strip() != ""]
         image_means_train = parts
     min_max_train = (mins, maxes)
@@ -121,6 +116,7 @@ if __name__ == "__main__":
         trained_model_dir, "hyperparameters.json")
     trained_model_config_path=os.path.join(
         trained_model_dir, "train_config.json")
+    
     import json
     import os
 

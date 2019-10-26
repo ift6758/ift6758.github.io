@@ -25,7 +25,7 @@ today_str = (datetime.now().strftime("%Y-%m-%d"))
 
 @dataclass()
 class TrainConfig(ParseableFromCommandLine):
-    log_dir: str = f"checkpoints/{today_str}" if DEBUG else f"~/submissions/checkpoints/{today_str}"
+    log_dir: str = f"checkpoints/{today_str}" if DEBUG else f"submissions/checkpoints/{today_str}"
     """
     The directory where the model checkpoints, as well as logs and event files should be saved at.
     """
@@ -33,11 +33,6 @@ class TrainConfig(ParseableFromCommandLine):
     validation_data_fraction: float = 0.2
     """
     The fraction of all data corresponding to the validation set. (20% by default)
-    """
-
-    train_features_characteristics_save_dir: str = "." if DEBUG else "~/submissions/train_characteristics"
-    """Directory where the training set characteristics (the max and min of features, the image means,
-    and the like ids kept) are to be saved to be later retrieved during testing.
     """
 
     epochs: int = 50
@@ -83,16 +78,17 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
     
 
     mins, maxes = train_data.features_min_max
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_max.csv"), "w") as f:    
+
+    with open(os.path.join(train_config.log_dir, "train_features_max.csv"), "w") as f:    
         # maxes.to_csv(f, header=True)
         f.write(",".join(str(v) for v in maxes))
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_min.csv"), "w") as f:
+    with open(os.path.join(train_config.log_dir, "train_features_min.csv"), "w") as f:
         # mins.to_csv(f, header=True)
         f.write(",".join(str(v) for v in mins))
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_image_means.csv"), "w") as f:
+    with open(os.path.join(train_config.log_dir, "train_features_image_means.csv"), "w") as f:
         image_means = train_data.image_means
         f.write(",".join(str(v) for v in image_means))
-    with open(os.path.join(train_config.train_features_characteristics_save_dir, "train_features_likes.csv"), "w") as f:
+    with open(os.path.join(train_config.log_dir, "train_features_likes.csv"), "w") as f:
         likes = train_data.likes_kept
         f.write(",".join(likes))
     
@@ -152,8 +148,9 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
 
 def train(hparams: HyperParameters, train_config: TrainConfig):
     # Create the required directories if not present.
+
     os.makedirs(train_config.log_dir, exist_ok=True)
-    os.makedirs(train_config.train_features_characteristics_save_dir, exist_ok=True)
+    os.makedirs(train_config.log_dir, exist_ok=True)
 
     # save the hyperparameter config to a file.
     with open(os.path.join(train_config.log_dir, "hyperparameters.json"), "w") as f:
