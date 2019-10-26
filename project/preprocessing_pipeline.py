@@ -372,7 +372,7 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
     # concatenate all scaled features into a single DataFrame
     test_features = pd.concat([feat_scaled, likes_data], axis=1, sort=False)
 
-    return feat_scaled, likes_data
+    return test_features
 
 
 def get_train_val_sets(features, labels, val_prop):

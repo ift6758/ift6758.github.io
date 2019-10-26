@@ -42,25 +42,30 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
     # Image
     
     # defining the inputs:
-    image_features = tf.keras.Input([hparams.num_image_features], dtype=tf.float32, name="image_features")
-    text_features = tf.keras.Input([hparams.num_text_features], dtype=tf.float32, name="text_features")
-    likes = tf.keras.Input([hparams.num_like_pages], dtype=tf.bool, name="likes_features")
+    image_features =    tf.keras.Input([hparams.num_image_features], dtype=tf.float32, name="image_features")
+    text_features  =    tf.keras.Input([hparams.num_text_features], dtype=tf.float32, name="text_features")
+    likes_features =    tf.keras.Input([hparams.num_like_pages], dtype=tf.bool, name="likes_features")
 
-    
-    # TODO: maybe use some kind of binary neural network on the likes? casting booleans to floats is so ineficient!
-    likes_float = tf.cast(likes, tf.float32)
+    # TODO: see below.
+    likes_float = tf.cast(likes_features, tf.float32)
 
+    # TODO: maybe use some kind of binary neural network here to condense a [`num_like_pages`] bool vector down to something more manageable (ex: [128] floats)
+    likes_condensing_block = tf.keras.Sequential(name="likes_condensing_block")
+    likes_condensing_block.add(tf.keras.layers.Dense(units=512, activation=hparams.activation))
+    likes_condensing_block.add(tf.keras.layers.Dense(units=256, activation=hparams.activation))
+    likes_condensing_block.add(tf.keras.layers.Dense(units=128, activation=hparams.activation))
+
+    condensed_likes = likes_condensing_block(likes_float)
+
+    # Dense block (applied on all the features, concatenated.)
     dense_layers = tf.keras.Sequential(name="dense_layers")
     dense_layers.add(tf.keras.layers.Concatenate())
-
     for i in range(hparams.num_layers):
         dense_layers.add(tf.keras.layers.Dense(units=hparams.dense_units, activation=hparams.activation))
-        
         if hparams.use_dropout:
             dense_layers.add(tf.keras.layers.Dropout(hparams.dropout_rate))
-
-    features = dense_layers([text_features, image_features, likes_float])
-    
+    # get the dense feature representation
+    features = dense_layers([text_features, image_features, condensed_likes])
     
     # MODEL OUTPUTS:
     age_group = tf.keras.layers.Dense(units=4, activation="softmax", name="age_group")(features)
@@ -93,7 +98,7 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
     con = personality_scaling("con")(con_sigmoid)
 
     model = tf.keras.Model(
-        inputs=[text_features, image_features, likes],
+        inputs=[text_features, image_features, likes_features],
         outputs=[age_group, gender, ext, ope, agr, neu, con]
     )
     model.compile(
@@ -126,16 +131,6 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
             "neu": tf.keras.metrics.RootMeanSquaredError(),
             "con": tf.keras.metrics.RootMeanSquaredError(),
         },
-        # callbacks=[
-        #     tf.keras.callbacks.ModelCheckpoint(
-        #         filepath='model.hdf5',
-        #         monitor = "val_loss",
-        #         verbose=1,
-        #         save_best_only=True,
-        #         mode = 'auto'
-        #     ),
-        #     tf.keras.callbacks.TensorBoard()
-        # ]
     )
-    model.summary()
+    # model.summary()
     return model
