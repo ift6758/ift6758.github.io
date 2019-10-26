@@ -4,7 +4,6 @@ import glob
 import numpy as np
 import pandas as pd
 
-from sklearn import model_selection
 import tensorflow as tf
 
 from typing import *
@@ -395,7 +394,8 @@ def get_train_val_sets(features, labels, val_prop):
     TO DO: convert outputted pandas to tensorflow tf.data.Dataset?...
     https://www.tensorflow.org/guide/data
     '''
-
+    # NOTE: UNUSED
+    from sklearn import model_selection
     x_train, x_val, y_train, y_val = model_selection.train_test_split(
         features, # training features to split
         labels, # training labels to split
