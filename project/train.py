@@ -165,7 +165,8 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
     model = get_model(hparams)
     model.summary()
 
-    train_dataset, valid_dataset = train_input_pipeline("./debug_data", hparams, train_config)
+    train_dir = "./debug_data" if DEBUG else "~/Train"
+    train_dataset, valid_dataset = train_input_pipeline(train_dir, hparams, train_config)
     training_callbacks = [
         tf.keras.callbacks.ModelCheckpoint(
             filepath=os.path.join(train_config.log_dir, "model.h5"),
