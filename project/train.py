@@ -14,6 +14,7 @@ import numpy as np
 import pandas as pd
 import simple_parsing
 import tensorflow as tf
+
 from simple_parsing import ParseableFromCommandLine
 
 from model import HyperParameters, get_model
@@ -173,7 +174,7 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
             save_best_only=True,
             mode = 'auto'
         ),
-        tf.keras.callbacks.TensorBoard(log_dir = train_config.log_dir)
+        tf.keras.callbacks.TensorBoard(log_dir = train_config.log_dir, profile_batch=0)
     ]
     model.fit(
         train_dataset.repeat(1000) if DEBUG else train_dataset,
