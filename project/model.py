@@ -5,6 +5,7 @@
 import tensorflow as tf
 import dataclasses
 from dataclasses import dataclass
+from tensorboard.plugins.hparams import api as hp
 # install simple-parsing with `pip install simple-parsing` 
 
 @dataclass

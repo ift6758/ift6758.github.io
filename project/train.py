@@ -14,6 +14,7 @@ import numpy as np
 import pandas as pd
 import simple_parsing
 import tensorflow as tf
+from tensorboard.plugins.hparams import api as hp
 
 from simple_parsing import ArgumentParser
 
@@ -21,7 +22,7 @@ from model import HyperParameters, get_model
 from preprocessing_pipeline import preprocess_train
 
 DEBUG = "fabrice" in gethostname()
-today_str = (datetime.now().strftime("%Y-%m-%d"))
+today_str = (datetime.now().strftime("%Y-%m-%d_%H:%M"))
 
 @dataclass()
 class TrainConfig():
@@ -172,7 +173,8 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
             save_best_only=True,
             mode = 'auto'
         ),
-        tf.keras.callbacks.TensorBoard(log_dir = train_config.log_dir, profile_batch=0)
+        tf.keras.callbacks.TensorBoard(log_dir = train_config.log_dir, profile_batch=0),
+        hp.KerasCallback(train_config.log_dir, asdict(hparams)),
     ]
     model.fit(
         train_dataset.repeat(1000) if DEBUG else train_dataset,
