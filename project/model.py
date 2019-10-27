@@ -24,7 +24,7 @@ class HyperParameters():
 
     # number of individual 'pages' that were kept during preprocessing of the 'likes'.
     # This corresponds to the number of entries in the multi-hot like vector.
-    num_like_pages: int = 5
+    num_like_pages: int = 10_000
     # wether or not Dropout layers should be used
     use_dropout: bool = True
     # the dropout rate
