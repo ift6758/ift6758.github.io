@@ -20,13 +20,15 @@ class HyperParameters():
     # the activation function used after each dense layer
     activation: str = "tanh"
 
+    learning_rate: float = 0.05
+
     # number of individual 'pages' that were kept during preprocessing of the 'likes'.
     # This corresponds to the number of entries in the multi-hot like vector.
     num_like_pages: int = 5
     # wether or not Dropout layers should be used
     use_dropout: bool = True
     # the dropout rate
-    dropout_rate: float = 0.5
+    dropout_rate: float = 0.1
 
     num_text_features: int = 91
     num_image_features: int = 63
@@ -103,7 +105,7 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
         outputs=[age_group, gender, ext, ope, agr, neu, con]
     )
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(),
+        optimizer=tf.keras.optimizers.Adam(learning_rate = hparams.learning_rate),
         loss={
             "age_group": tf.keras.losses.CategoricalCrossentropy(),
             "gender": "binary_crossentropy",
