@@ -1,0 +1,3 @@
+[submodule "project/SimpleParsing"]
+	path = project/SimpleParsing
+	url = https://github.com/lebrice/SimpleParsing.git
