@@ -124,8 +124,8 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
             "con": 1,
         },
         metrics={
-            "age_group": "accuracy",
-            "gender": "accuracy",
+            "age_group": tf.keras.metrics.CategoricalAccuracy(),
+            "gender": tf.keras.metrics.BinaryAccuracy(),
             "ext": tf.keras.metrics.RootMeanSquaredError(),
             "ope": tf.keras.metrics.RootMeanSquaredError(),
             "agr": tf.keras.metrics.RootMeanSquaredError(),
