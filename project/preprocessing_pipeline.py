@@ -4,7 +4,6 @@ import glob
 import numpy as np
 import pandas as pd
 
-from sklearn import model_selection
 import tensorflow as tf
 
 from typing import *
@@ -109,7 +108,7 @@ def get_image_raw(data_dir):
     # 7915 entries; some users have no face, some have multiple faces on image.
     # userids with 1+ face on image: 7174 out of 9500 (train set)
     # duplicated entries (userids with > 1 face on same image): 741 in train set
-    oxford = pd.read_csv(os.path.join(input_dir, 'Image/oxford.csv'), sep = ',')
+    oxford = pd.read_csv(os.path.join(data_dir, "Image", "oxford.csv"), sep = ',')
     oxford = oxford.sort_values(by=['userId'])
     '''
     NOTE: headPose_pitch has NO RANGE, drop that feature
@@ -119,7 +118,7 @@ def get_image_raw(data_dir):
     return oxford
 
 
-def get_likes_kept(data_dir, num_features):
+def get_likes_kept(data_dir, num_features) -> List[str]:
     '''
     Purpose: get list of likes to keep as features
     Input:
@@ -127,52 +126,77 @@ def get_likes_kept(data_dir, num_features):
         num_features {int} : the number of likes to keep as features,
                         starting from those with highest frequencies
     Output:
-        freq_like_id {pandas Series of float index with strings}: frequency of most frequent likes,
+        freq_like_id {List of strings}: frequency of most frequent likes,
                     (number = num_features), in descending ordered, indexed by like_id
     '''
-    relation = pd.read_csv(os.path.join(input_dir, 'Relation/Relation.csv'))
+    relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv"))
     relation = relation.drop(['Unnamed: 0'], axis=1)
+    like_ids_to_keep = relation['like_id'].value_counts(sort=True, ascending=False)[:num_features]
+    likes_int64_list = sorted(like_ids_to_keep.keys())
+    likes_str_list = [str(l) for l in likes_int64_list]
+    return likes_str_list
 
-    freq_like_id = relation['like_id'].value_counts()[0:num_features]
 
-    return freq_like_id
-
-
-def get_relations(data_dir, sub_ids, freq_like_id):
+def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]):
     '''
     Purpose: preprocess relations dataset ('likes')
 
     Input:
         data_dir {str} -- the parent input directory
         sub_ids {numpy array of strings} -- the ordered list of userids
-        num_features {int} -- number of features to keep (with top frequencies)
+        like_ids_to_keep {List[str]} -- The list of page IDs to keep.
 
     Returns:
         relations_data -- multihot matrix of the like_id. Rows are indexed with userid
     '''
-    relation = pd.read_csv(os.path.join(input_dir, 'Relation/Relation.csv'))
+    relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv"))
     relation = relation.drop(['Unnamed: 0'], axis=1)
+    # TODO: maybe set_index on everything before concatenating?
+    # relation.set_index("userid", inplace=True) 
 
     # Create empty DataFrame with sub_ids as index list
     relation_data = pd.DataFrame(sub_ids, columns = ['userid'])
     relation_data.set_index('userid', inplace=True)
 
+    ## One HUGE step:
+    # likes_to_keep = like_ids_to_keep.keys()
+    # kept_relations = relation[relation.like_id.isin(likes_to_keep)]
+    # multi_hot_relations = pd.get_dummies(kept_relations, columns=["like_id"], prefix="")
+    # multi_hot = multi_hot_relations.groupby(("userid")).sum()
+    # return multi_hot_relations
+    ###
+    total_num_pages = len(like_ids_to_keep)
     # Create a multihot likes matrix of booleans (rows = userids, cols = likes), by batch
-    batch_size = int(len(like_list)/10) # like math.floor
-    for i in range(10):
-        likes_kept = freq_like_id[i*batch_size:(i+1)*batch_size]
-        likes_kept_inds = likes_kept.keys()
-        filtered_table = relation[relation['like_id'].isin(likes_kept_inds)]
-        relHot = pd.get_dummies(filtered_table, columns=['like_id'])
-        relHot = relHot.groupby(['userid']).sum() # this makes userid the index
+    batch_size = 1000
+    
+    # Create empty DataFrame with sub_ids as index list
+    relation_data = pd.DataFrame(sub_ids, columns = ['userid'])
+    relation_data.set_index('userid', inplace=True)
+
+    for start_index in range(0, total_num_pages, batch_size):
+        end_index = min(start_index + batch_size, total_num_pages)
+
+        # sets are better for membership testing than lists. 
+        like_ids_for_this_batch = set(like_ids_to_keep[start_index:end_index])
+
+        filtered_table = relation[relation['like_id'].isin(like_ids_for_this_batch)]
+        ## THIS is the slow part:
+        relHot = pd.get_dummies(filtered_table, columns=['like_id'], prefix="", prefix_sep="")
+        ##
+        relHot = relHot.groupby(['userid']).sum().astype(float) # this makes userid the index
+        
         relation_data = pd.concat([relation_data, relHot], axis=1, sort=True)
 
-    relation_data.fillna(0)
+    relation_data.fillna(0.0, inplace=True)
 
     # will be different if users in relation.csv are not in sub_ids
     if not np.array_equal(relation_data.index, sub_ids):
-        raise Exception('userIds do not match between relation file and id list')
-
+        raise Exception(f"""userIds do not match between relation file and id list:
+    {relation_data.index}
+    {sub_ids}
+    
+    """)
+      
     return relation_data
 
 
@@ -217,16 +241,36 @@ def preprocess_labels(data_dir, sub_ids):
                 for the training set, with userids as index.
 
     '''
-    labels = pd.read_csv(os.path.join(input_dir, 'Profile/Profile.csv'), sep = ',')
+    labels = pd.read_csv(os.path.join(data_dir, "Profile", "Profile.csv"))
     labels = labels.sort_values(by=['userid'])
     # check if same subject ids in labels and sub_ids
     if not np.array_equal(labels['userid'].to_numpy(), sub_ids):
         raise Exception('userIds do not match between profiles labels and id list')
 
-    labels = labels.assign(age_xx_24 = lambda dt: pd.Series([int(age) <= 24 for age in dt["age"]]))
-    labels = labels.assign(age_25_34 = lambda dt: pd.Series([25 <= int(age) <= 34 for age in dt["age"]]))
-    labels = labels.assign(age_35_49 = lambda dt: pd.Series([35 <= int(age) <= 49 for age in dt["age"]]))
-    labels = labels.assign(age_50_xx = lambda dt: pd.Series([50 <= int(age) for age in dt["age"]]))
+    def age_group_id(age_str: str) -> int:
+        """Returns the age group category ID (an integer from 0 to 3) for the given age (string)
+        
+        Arguments:
+            age_str {str} -- the age
+        
+        Returns:
+            int -- the ID of the age group: 0 for xx-24, 1 for 25-34, 2 for 35-49 and 3 for 50-xx.
+        """
+        age = int(age_str)
+        if age <= 24:
+            return 0
+        elif age <= 34:
+            return 1
+        elif age <= 49:
+            return 2
+        else:
+            return 3
+
+    labels = labels.assign(age_group = lambda dt: pd.Series([age_group_id(age_str) for age_str in dt["age"]]))
+    # labels = labels.assign(age_xx_24 = lambda dt: pd.Series([int(age) <= 24 for age in dt["age"]]))
+    # labels = labels.assign(age_25_34 = lambda dt: pd.Series([25 <= int(age) <= 34 for age in dt["age"]]))
+    # labels = labels.assign(age_35_49 = lambda dt: pd.Series([35 <= int(age) <= 49 for age in dt["age"]]))
+    # labels = labels.assign(age_50_xx = lambda dt: pd.Series([50 <= int(age) for age in dt["age"]]))
 
     labels = labels.drop(['Unnamed: 0'], axis=1)
     labels.set_index('userid', inplace=True)
@@ -259,10 +303,9 @@ def preprocess_train(data_dir, num_likes=10000):
     # sub_ids: a numpy array of subject ids ordered alphabetically.
     # text_data: a pandas DataFrame of unscaled text data (liwc and nrc)
     sub_ids, text_data = get_text_data(data_dir)
-
     # image_data: pandas dataframe of oxford data
     # image_min_max: a tupple of 2 pandas series, the min and max values from oxford training features
-    image_data_raw = get_image_raw(data_dir, sub_ids)
+    image_data_raw = get_image_raw(data_dir)
     image_means = image_data_raw.iloc[:, 2:].mean().tolist()
     image_data = get_image_clean(sub_ids, image_data_raw, image_means)
 
@@ -310,7 +353,7 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
 
     # image_data: pandas dataframe of oxford data
     # image_min_max: a tupple of 2 pandas series, the min and max values from oxford training features
-    image_data_raw = get_image_raw(data_dir, sub_ids)
+    image_data_raw = get_image_raw(data_dir)
     image_data = get_image_clean(sub_ids, image_data_raw, image_means_train)
 
     '''
@@ -324,7 +367,8 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
 
     # multi-hot matrix of likes from train data
     likes_data = get_relations(data_dir, sub_ids, likes_kept_train)
-
+    likes_data = likes_data.astype("bool")
+    print(likes_data)
     # concatenate all scaled features into a single DataFrame
     test_features = pd.concat([feat_scaled, likes_data], axis=1, sort=False)
 
@@ -350,7 +394,8 @@ def get_train_val_sets(features, labels, val_prop):
     TO DO: convert outputted pandas to tensorflow tf.data.Dataset?...
     https://www.tensorflow.org/guide/data
     '''
-
+    # NOTE: UNUSED
+    from sklearn import model_selection
     x_train, x_val, y_train, y_val = model_selection.train_test_split(
         features, # training features to split
         labels, # training labels to split

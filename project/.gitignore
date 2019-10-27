@@ -1,2 +1,5 @@
 .vscode
 .mypy_cache
+debug_output
+
+*.csv
