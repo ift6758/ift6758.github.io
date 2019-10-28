@@ -26,7 +26,7 @@ The project counts for 35% of your final grade.  The project will be graded out 
 
 - In-class  progress  update  on  week  10 (November 5):  5  points.   This  is  a  group  presentation,  with  slides.   All  teammembers should present.  Students who do not present can not get credit for this part. [[english](assignments/Assignment_4(EN).pdf), french] 
 
-**Requirements: Give an overview of the prediction task, and present statistical analysis of the data using visualization tools. Present the method that you use for each data source/task. Provide an overview of the prediction results you obtained by applying the machine learning methods on the public trainset. Note that your score on the scoreboard (Evaluation #5: October 28) should beat the baseline for atleast one of the tasks.**
+**Requirements: Give an overview of the prediction task, and present statistical analysis of the data using visualization tools. Present the method that you use for each data source/task. Provide an overview of the prediction results you obtained by applying the machine learning methods on the public trainset. Note that your score on the scoreboard (Evaluation #5: November 4) should beat the baseline for atleast one of the tasks.**
 
 - Final in-class presentation on week 15 (December 3):  10 points.  This is a group presentation, with slides.  All teammembers should present.  Students who do not present can not get credit for this part.  We will decide at random at the beginning of the lecture on the last weel which teams will present on Tuesday and which teams will present on Thursday. 
 
