@@ -72,8 +72,8 @@ def test_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: T
     assert "userid" not in column_names
     expected_num_columns= hparams.num_text_features + hparams.num_image_features + hparams.num_like_pages
 
-    message = f"columnds present in train set but not in test set: {set(train_columns) - set(column_names)}"
-    assert len(column_names) == expected_num_columns, message
+    # message = f"columnds present in train set but not in test set: {set(train_columns) ^ set(column_names)}"
+    # assert len(column_names) == expected_num_columns, message
     image_features_start_index=column_names.index("faceRectangle_width")
     likes_features_start_index=column_names.index("headPose_yaw") + 1
 
@@ -134,7 +134,7 @@ if __name__ == "__main__":
     pred_labels = ["age_group", "gender", "ext", "ope", "agr", "neu", "con"]
 
     predictions=model.predict(test_dataset)
-    print(len(predictions))
+    print(len(predictions), "predictions")
     from user import User
     
     for i, user in enumerate(test_dataset.unbatch()):
@@ -143,7 +143,8 @@ if __name__ == "__main__":
         pred_dict["userid"] = userid
         pred_dict["age_group_id"] = np.argmax(pred_dict.pop("age_group"))
         pred_dict["gender"] = int(np.round(pred_dict["gender"]))
+        
         user = User(**pred_dict)
         print(user)
         with open(os.path.join(output_dir, f"{userid}.xml"), "w") as xml_file:
-            xml_file.write(user.to_xml()) 
+            xml_file.write(user.to_xml())

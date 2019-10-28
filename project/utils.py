@@ -1,5 +1,9 @@
 import tensorflow as tf
 
+from socket import gethostname
+DEBUG = "fabrice" in gethostname()
+
+
 def random_multihot_vector(num_examples, num_classes, prob_1: float = 0.5) -> tf.Tensor:
     """Creates a multi-hot random 'likes' vector.
     

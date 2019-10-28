@@ -7,7 +7,6 @@ import os
 from collections import namedtuple
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
-from socket import gethostname
 from typing import *
 
 import numpy as np
@@ -21,8 +20,10 @@ from simple_parsing import ArgumentParser
 from model import HyperParameters, get_model
 from preprocessing_pipeline import preprocess_train
 
-DEBUG = "fabrice" in gethostname()
 today_str = (datetime.now().strftime("%Y-%m-%d_%H:%M"))
+from utils import DEBUG
+
+print("DEBUGGING: ", DEBUG)
 
 @dataclass()
 class TrainConfig():
@@ -41,7 +42,6 @@ class TrainConfig():
 
     # train_features_min_max: Tuple[pd.DataFrame, pd.DataFrame] = field(init=False)
     # train_features_image_means: List[float] = field(init=False)
-
 
 
 @dataclass()
@@ -89,9 +89,16 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
     with open(os.path.join(train_config.log_dir, "train_features_image_means.csv"), "w") as f:
         image_means = train_data.image_means
         f.write(",".join(str(v) for v in image_means))
-    with open(os.path.join(train_config.log_dir, "train_features_likes.csv"), "w") as f:
-        likes = train_data.likes_kept
-        f.write(",".join(likes))
+    
+
+    if DEBUG:
+        print("Writing dummy likes kept")
+        with open(os.path.join(train_config.log_dir, "train_features_likes.csv"), "w") as f:
+            f.write(",".join(str(v) for v in range(hparams.num_like_pages)))
+    else:
+        with open(os.path.join(train_config.log_dir, "train_features_likes.csv"), "w") as f:
+            likes = train_data.likes_kept
+            f.write(",".join(likes))
     
     column_names = list(features.columns)
     # print("number of columns:", len(column_names))
@@ -122,9 +129,9 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
         # print(likes_features.shape)
         features_dataset = tf.data.Dataset.from_tensor_slices(
             {
-                "text_features": text_features,
-                "image_features": image_features,
-                "likes_features": likes_features,
+                "text_features": text_features.astype("float32"),
+                "image_features": image_features.astype("float32"),
+                "likes_features": likes_features.astype("bool"),
             }
         )
         labels_dataset = tf.data.Dataset.from_tensor_slices({
@@ -147,10 +154,8 @@ def train_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: 
     valid_dataset = make_dataset(valid_features, valid_labels)
     return train_dataset, valid_dataset
 
-def train(hparams: HyperParameters, train_config: TrainConfig):
+def train(train_dir: str, hparams: HyperParameters, train_config: TrainConfig):
     # Create the required directories if not present.
-
-    os.makedirs(train_config.log_dir, exist_ok=True)
     os.makedirs(train_config.log_dir, exist_ok=True)
 
     # save the hyperparameter config to a file.
@@ -163,7 +168,6 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
     model = get_model(hparams)
     model.summary()
 
-    train_dir = "./debug_data" if DEBUG else "~/Train"
     train_dataset, valid_dataset = train_input_pipeline(train_dir, hparams, train_config)
     training_callbacks = [
         tf.keras.callbacks.ModelCheckpoint(
@@ -177,7 +181,7 @@ def train(hparams: HyperParameters, train_config: TrainConfig):
         hp.KerasCallback(train_config.log_dir, asdict(hparams)),
     ]
     model.fit(
-        train_dataset.repeat(1000) if DEBUG else train_dataset,
+        train_dataset.repeat(100) if DEBUG else train_dataset,
         validation_data=valid_dataset,
         epochs=train_config.epochs,
         callbacks=training_callbacks
@@ -197,6 +201,12 @@ if __name__ == "__main__":
     hparams: HyperParameters = args.hparams
     train_config: TrainConfig = args.train_config
     
-    model = train(hparams, train_config)
+    
+    print("Hyperparameters:", hparams)
+    print("Train_config:", train_config)
+
+    train_dir = "./debug_data" if DEBUG else "~/Train"
+    model = train(train_dir, hparams, train_config)
+    print(f"Saved model weights are located at '{train_config.log_dir}'")
     # save_path = os.path.join(train_config.log_dir, "model_final.h5")
     # model.save(save_path)

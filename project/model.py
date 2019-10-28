@@ -4,16 +4,16 @@
 
 import tensorflow as tf
 import dataclasses
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from tensorboard.plugins.hparams import api as hp
-# install simple-parsing with `pip install simple-parsing` 
+from typing import *
 
 @dataclass
 class HyperParameters():
     # the batch size
-    batch_size: int = 32
+    batch_size: int = 100
     # the number of dense layers in our model.
-    num_layers: int = 10
+    num_layers: int = 2
     # the number of units in each dense layer.
     dense_units: int = 256
     
@@ -24,12 +24,13 @@ class HyperParameters():
 
     # number of individual 'pages' that were kept during preprocessing of the 'likes'.
     # This corresponds to the number of entries in the multi-hot like vector.
-    num_like_pages: int = 10_000
+    num_like_pages: int = 5000
     # wether or not Dropout layers should be used
     use_dropout: bool = True
     # the dropout rate
     dropout_rate: float = 0.1
 
+    use_batchnorm: bool = True
     num_text_features: int = 91
     num_image_features: int = 63
 
@@ -54,9 +55,8 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
 
     # TODO: maybe use some kind of binary neural network here to condense a [`num_like_pages`] bool vector down to something more manageable (ex: [128] floats)
     likes_condensing_block = tf.keras.Sequential(name="likes_condensing_block")
-    likes_condensing_block.add(tf.keras.layers.Dense(units=512, activation=hparams.activation))
-    likes_condensing_block.add(tf.keras.layers.Dense(units=256, activation=hparams.activation))
-    likes_condensing_block.add(tf.keras.layers.Dense(units=128, activation=hparams.activation))
+    for n_units in [512, 256, 128]:
+        likes_condensing_block.add(tf.keras.layers.Dense(units=n_units, activation=hparams.activation))
 
     condensed_likes = likes_condensing_block(likes_float)
 
@@ -65,8 +65,14 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
     dense_layers.add(tf.keras.layers.Concatenate())
     for i in range(hparams.num_layers):
         dense_layers.add(tf.keras.layers.Dense(units=hparams.dense_units, activation=hparams.activation))
+        
+        if hparams.use_batchnorm:
+            dense_layers.add(tf.keras.layers.BatchNormalization())
+        
         if hparams.use_dropout:
             dense_layers.add(tf.keras.layers.Dropout(hparams.dropout_rate))
+
+        
     # get the dense feature representation
     features = dense_layers([text_features, image_features, condensed_likes])
     
@@ -116,7 +122,7 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
             "con": "mse",
         },
         #TODO: We can use this to change the importance of each output in the loss calculation, if need be.
-        loss_weights={ 
+        loss_weights={
             "age_group": 1,
             "gender": 1,
             "ext": 1,
@@ -127,7 +133,7 @@ def get_model(hparams: HyperParameters) -> tf.keras.Model:
         },
         metrics={
             "age_group": tf.keras.metrics.CategoricalAccuracy(),
-            "gender": tf.keras.metrics.BinaryAccuracy(),
+            "gender": [tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()],
             "ext": tf.keras.metrics.RootMeanSquaredError(),
             "ope": tf.keras.metrics.RootMeanSquaredError(),
             "agr": tf.keras.metrics.RootMeanSquaredError(),

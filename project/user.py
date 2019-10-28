@@ -34,21 +34,21 @@ class User():
             id="{self.userid}"
             age_group="{self.age_group_string}"
             gender="{self.gender_string}"
-            extrovert="{self.ext}"
-            neurotic="{self.neu}"
-            agreeable="{self.agr}"
-            conscientious="{self.con}"
-            open="{self.ope}"
+            extrovert="{self.ext:.3f}"
+            neurotic="{self.neu:.3f}"
+            agreeable="{self.agr:.3f}"
+            conscientious="{self.con:.3f}"
+            open="{self.ope:.3f}"
         />""")
     
     def __post_init__(self):
         self.age_group_string = age_group_string(self.age_group_id)
 
-        self.ope = float(self.ope)
-        self.con = float(self.con)
-        self.ext = float(self.ext)
-        self.agr = float(self.agr)
-        self.neu = float(self.neu)
+        self.ope = round(float(self.ope), 3)
+        self.con = round(float(self.con), 3)
+        self.ext = round(float(self.ext), 3)
+        self.agr = round(float(self.agr), 3)
+        self.neu = round(float(self.neu), 3)
 
     @property 
     def gender_string(self) -> str:

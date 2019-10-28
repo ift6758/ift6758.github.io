@@ -8,7 +8,7 @@ import tensorflow as tf
 
 from typing import *
 from collections import Counter
-
+from utils import DEBUG
 
 def get_text_data(input_dir):
     """
@@ -147,16 +147,10 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
         like_ids_to_keep {List[str]} -- The list of page IDs to keep.
 
     Returns:
-        relations_data -- multihot matrix of the like_id. Rows are indexed with userid
+        relations_data -- multihot matrix of the like_id. Rows are indexed with userid, entries are boolean.
     '''
     relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv"))
     relation = relation.drop(['Unnamed: 0'], axis=1)
-    # TODO: maybe set_index on everything before concatenating?
-    # relation.set_index("userid", inplace=True) 
-
-    # Create empty DataFrame with sub_ids as index list
-    relation_data = pd.DataFrame(sub_ids, columns = ['userid'])
-    relation_data.set_index('userid', inplace=True)
 
     ## One HUGE step:
     # likes_to_keep = like_ids_to_keep.keys()
@@ -186,9 +180,11 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
         relHot = relHot.groupby(['userid']).sum().astype(float) # this makes userid the index
         
         relation_data = pd.concat([relation_data, relHot], axis=1, sort=True)
-
+    
+    relation_data = relation_data.reindex(like_ids_to_keep, axis=1)
     relation_data.fillna(0.0, inplace=True)
-
+    relation_data = relation_data.astype("bool")
+    
     # will be different if users in relation.csv are not in sub_ids
     if not np.array_equal(relation_data.index, sub_ids):
         raise Exception(f"""userIds do not match between relation file and id list:
@@ -278,7 +274,7 @@ def preprocess_labels(data_dir, sub_ids):
     return labels
 
 
-def preprocess_train(data_dir, num_likes=10000):
+def preprocess_train(data_dir, num_likes=10_000):
     '''
     Purpose: preprocesses training dataset (with labels) and returns scaled features,
     labels and parameters to scale the test data set
@@ -319,7 +315,10 @@ def preprocess_train(data_dir, num_likes=10000):
     feat_scaled = (features_to_scale - feat_min) / (feat_max - feat_min)
     features_min_max = (feat_min, feat_max)
 
-    likes_kept = get_likes_kept(data_dir, num_likes)
+    if DEBUG:
+        likes_kept = [str(v) for v in range(num_likes)]
+    else:
+        likes_kept = get_likes_kept(data_dir, num_likes)
 
     # multi-hot matrix of likes from train data
     likes_data = get_relations(data_dir, sub_ids, likes_kept)
@@ -367,8 +366,7 @@ def preprocess_test(data_dir, min_max_train, image_means_train, likes_kept_train
 
     # multi-hot matrix of likes from train data
     likes_data = get_relations(data_dir, sub_ids, likes_kept_train)
-    likes_data = likes_data.astype("bool")
-    print(likes_data)
+    
     # concatenate all scaled features into a single DataFrame
     test_features = pd.concat([feat_scaled, likes_data], axis=1, sort=False)
 
