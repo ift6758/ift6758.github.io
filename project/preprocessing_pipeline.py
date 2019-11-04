@@ -129,10 +129,13 @@ def get_likes_kept(data_dir, num_features) -> List[str]:
         freq_like_id {List of strings}: frequency of most frequent likes,
                     (number = num_features), in descending ordered, indexed by like_id
     '''
-    relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv"))
+    #Why return frequency?
+    relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv")) #, index_col=1)
     relation = relation.drop(['Unnamed: 0'], axis=1)
-    like_ids_to_keep = relation['like_id'].value_counts(sort=True, ascending=False)[:num_features]
-    likes_int64_list = sorted(like_ids_to_keep.keys())
+    like_ids_to_keep = relation['like_id'].value_counts(sort=True, ascending=False)[:num_features] #This sorts features by frequency
+
+    #sort like indices (which are the keys associated with the values kepts)
+    likes_int64_list = sorted(like_ids_to_keep.keys()) # This sorts indices by like_id
     likes_str_list = [str(l) for l in likes_int64_list]
     return likes_str_list
 
@@ -149,7 +152,7 @@ def get_relations(data_dir: str, sub_ids: List[str], like_ids_to_keep: List[str]
     Returns:
         relations_data -- multihot matrix of the like_id. Rows are indexed with userid, entries are boolean.
     '''
-    relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv"))
+    relation = pd.read_csv(os.path.join(data_dir, "Relation", "Relation.csv")) #, index_col=1)
     relation = relation.drop(['Unnamed: 0'], axis=1)
 
     ## One HUGE step:
