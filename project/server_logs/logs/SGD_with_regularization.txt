@@ -1,0 +1,254 @@
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-01_23:56:05', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-01_23:56:05
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.0, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-01_23:57:05', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-01_23:57:05
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.001, l2_reg=0.001, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-01_23:57:45', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-01_23:57:45
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.005, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-01_23:58:23', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-01_23:58:23
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-01_23:59:21', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-01_23:59:21
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.0, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:00:31', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:00:31
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.0, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:01:12', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:01:12
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:01:56', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:01:56
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:03:07', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:03:07
+TRAINING DIVERGED.
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:03:44', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:03:44
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.001, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:04:30', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:04:30
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.005, l2_reg=0.05, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:05:09', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:05:09
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.05, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:05:53', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:05:53
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:07:04', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:07:04
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.05, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:07:54', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:07:54
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.05, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:08:44', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:08:44
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.001, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:09:34', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:09:34
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.05, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:10:13', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:10:13
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.0, l2_reg=0.05, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:11:10', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:11:10
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.05, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:11:58', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:11:58
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.01, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:12:39', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:12:39
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:13:19', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:13:19
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.001, l2_reg=0.05, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:14:10', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:14:10
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.05, l2_reg=0.05, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:15:00', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:15:00
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.05, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:15:39', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:15:39
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.001, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:16:30', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:16:30
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.0, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:17:35', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:17:35
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:18:15', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:18:15
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:19:03', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:19:03
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.05, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:20:14', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:20:14
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.05, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:21:29', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:21:29
+TRAINING DIVERGED.
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.0, l2_reg=0.001, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:22:06', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:22:06
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.01, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:22:51', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:22:51
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.05, l2_reg=0.05, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:23:49', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:23:49
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.001, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:24:30', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:24:30
+TRAINING DIVERGED.
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.005, l2_reg=0.001, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:25:08', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:25:08
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.001, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:26:04', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:26:04
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:26:57', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:26:57
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:27:49', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:27:49
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.001, l2_reg=0.001, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:28:39', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:28:39
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.001, l2_reg=0.05, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:29:51', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:29:51
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.05, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:30:38', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:30:38
+TRAINING DIVERGED.
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.001, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:31:17', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:31:17
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.001, l2_reg=0.05, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:32:03', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:32:03
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.05, l1_reg=0.001, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:32:43', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:32:43
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=256, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.001, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:33:36', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:33:36
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:34:50', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:34:50
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.0, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:36:03', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:36:03
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.05, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:37:15', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:37:15
+DEBUGGING:  False
+Experiment name: SGD_with_regularization
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.1, l1_reg=0.0, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='SGD_with_regularization', log_dir='checkpoints/SGD_with_regularization/2019-11-02_00:38:02', validation_data_fraction=0.2, epochs=50, early_stopping_patience=5)
+Training directory: checkpoints/SGD_with_regularization/2019-11-02_00:38:02

@@ -98,8 +98,12 @@ def test_input_pipeline(data_dir: str, hparams: HyperParameters, train_config: T
 
 if __name__ == "__main__":
     parser=argparse.ArgumentParser()
-    parser.add_argument("--trained_model_dir", type = str,
-                        help = "directory of the trained model to use for inference.")
+    parser.add_argument(
+        "--trained_model_dir",
+        type = str,
+        default = "checkpoints/best_model_01/2019-11-02_01:05:33",
+        help = "directory of the trained model to use for inference."
+    )
     parser.add_argument(
         "-i", type = str, default = "./debug_data", help = "Input directory")
     parser.add_argument(

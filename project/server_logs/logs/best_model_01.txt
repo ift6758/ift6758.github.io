@@ -1,0 +1,6 @@
+DEBUGGING:  False
+Experiment name: best_model_01
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_01', log_dir='checkpoints/best_model_01/2019-11-02_01:05:33', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_01/2019-11-02_01:05:33
+[{'name': 'validation_loss', 'type': 'objective', 'value': 12.16663646697998}]

@@ -1,0 +1,90 @@
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_20:50:48', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_20:50:48
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_20:52:25', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_20:52:25
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_20:56:59', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_20:56:59
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_20:58:58', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_20:58:58
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:02:19', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:02:19
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:05:27', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:05:27
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:06:43', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:06:43
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:09:52', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:09:52
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:12:44', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:12:44
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:15:22', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:15:22
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:18:56', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:18:56
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=32, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:22:15', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:22:15
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:25:08', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:25:08
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:26:14', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:26:14
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:30:27', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:30:27
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:33:14', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:33:14
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:36:06', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:36:06
+DEBUGGING:  False
+Experiment name: slim_models
+Hyperparameters: HyperParameters(batch_size=64, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='slim_models', log_dir='checkpoints/slim_models/2019-11-03_21:38:38', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/slim_models/2019-11-03_21:38:38

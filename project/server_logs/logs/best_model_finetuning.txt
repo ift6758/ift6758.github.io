@@ -1,0 +1,100 @@
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-02_01:27:09', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-02_01:27:09
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_19:49:58', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_19:49:58
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_19:50:51', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_19:50:51
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.0, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_19:52:44', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_19:52:44
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.0, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_19:54:32', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_19:54:32
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.0, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_19:58:22', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_19:58:22
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.001, l2_reg=0.01, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_19:59:15', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_19:59:15
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:01:52', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:01:52
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:05:53', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:05:53
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.0, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:10:35', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:10:35
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.001, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:12:09', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:12:09
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.0, l2_reg=0.001, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:15:06', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:15:06
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:15:51', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:15:51
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.01, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:16:40', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:16:40
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=3, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.005, num_like_pages=5000, use_dropout=True, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:17:32', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:17:32
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.01, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:20:46', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:20:46
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=128, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.005, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:22:15', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:22:15
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:23:06', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:23:06
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=2, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.001, l2_reg=0.005, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=True)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:23:56', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:23:56
+DEBUGGING:  False
+Experiment name: best_model_finetuning
+Hyperparameters: HyperParameters(batch_size=256, num_layers=1, dense_units=64, activation='tanh', optimizer='sgd', learning_rate=0.005, l1_reg=0.0, l2_reg=0.01, num_like_pages=5000, use_dropout=False, dropout_rate=0.1, use_batchnorm=False)
+Train_config: TrainConfig(experiment_name='best_model_finetuning', log_dir='checkpoints/best_model_finetuning/2019-11-03_20:24:47', validation_data_fraction=0.2, epochs=500, early_stopping_patience=5)
+Training directory: checkpoints/best_model_finetuning/2019-11-03_20:24:47
