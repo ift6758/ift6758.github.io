@@ -117,8 +117,8 @@ PDS = Python for Data Science
   * Pattern mining and associate rule mining: Apriori algorithm
   * Tools: [Apyori](https://pypi.org/project/apyori/)
 - November 28
-  * Big Data: Data at scale
-  * Tools: [Apache Hadoop](https://hadoop.apache.org/)
+  * Causal inference: prediction vs. causation
+  * Tools: 
   
 14. Week 14
 - December 3
