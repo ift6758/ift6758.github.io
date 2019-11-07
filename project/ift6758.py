@@ -118,7 +118,7 @@ def main():
     for (userid, is_female) in gender_dataframe.itertuples():
         user = User(
             userid = userid,
-            is_female=gender_dataframe.gender[userid],
+            gender=gender_dataframe.gender[userid],
             ope = 3.91,
             con = 3.45,
             ext = 3.49,
