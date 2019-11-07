@@ -90,7 +90,7 @@ PDS = Python for Data Science
   * Project presentation
   *
 - November 7
-  * Data Bias: Source and types of data bias, bias and Discrimination in Machine Learning: fairness metrics 
+  * [Algorithmic bias](lectures/algorithmic_bias.pdf): Source and types of data bias, bias and discrimination in machine Learning: fairness metrics 
   * Reading: [Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2886526), [Fairness definitions explained](http://fairware.cs.umass.edu/papers/Verma.pdf)
   * Video: [The Trouble with Bias](https://youtu.be/fMym_BKWQzk), [21 fairness definitions and their politics](https://youtu.be/jIXIuYdnyyk) 
   * Fairness metric tools: [The Aequitas Toolkit Paper](https://arxiv.org/abs/1811.05577), [The Aequitas Tool](https://github.com/dssg/aequitas)
