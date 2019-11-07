@@ -101,7 +101,7 @@ PDS = Python for Data Science
   * Reading: [Speech and Language Processing, Jurafsky and Martn, 2nd ed. (plus)](https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf): Chapters 1 - 6
   * Tools: Python: [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), Java: Stanford CoreNLP, Apache OpenNLP
 - November 14
-  * Computer Vision and Multimodal
+  * Computer Vision
   * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)
   * Tools: Python: [OpenCV](https://opencv.org/)  
 12. Week 12
@@ -114,7 +114,7 @@ PDS = Python for Data Science
   
 13. Week 13
 - November 26
-  * Pattern mining and associate rule mining: Apriori algorithm
+  * Pattern mining, associate rule mining, Apriori algorithm and interpretable machine learning
   * Tools: [Apyori](https://pypi.org/project/apyori/)
 - November 28
   * Causal inference: prediction vs. causation
