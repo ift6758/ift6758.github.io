@@ -97,11 +97,13 @@ PDS = Python for Data Science
 
 11. Week 11
 - November 12
-  * Text mining (NLP): BOW, n-grams, topic model, and language model
+  * [Text mining (NLP): part 1](lectures/NLP_part1.pdf): NLP pipeline, BOW, n-grams, TF-IDF, and language model
   * Reading: [Speech and Language Processing, Jurafsky and Martn, 2nd ed. (plus)](https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf): Chapters 1 - 6
   * Tools: Python: [NLTK](https://www.nltk.org/), [Gensim](https://radimrehurek.com/gensim/), Java: Stanford CoreNLP, Apache OpenNLP
 - November 14
-  * Computer Vision
+  * [Text mining (NLP): part 2](lectures/NLP_part2.pdf): Word embeddings, SVD, Word2Vec and GLoVe.
+  * Reading: [Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), [GLoVe](https://nlp.stanford.edu/pubs/glove.pdf)
+  * Computer Vision: Point processing, Filters, Convolution
   * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)
   * Tools: Python: [OpenCV](https://opencv.org/)  
 12. Week 12
