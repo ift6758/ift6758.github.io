@@ -103,7 +103,7 @@ PDS = Python for Data Science
 - November 14
   * [Text mining (NLP): part 2](lectures/NLP_part2.pdf): Word embeddings, SVD, Word2Vec and GLoVe.
   * Reading: [Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), [GLoVe](https://nlp.stanford.edu/pubs/glove.pdf)
-  * [Computer Vision: part 1](lectures/computer_vision_part1.pdf): Point processing, Filters, Convolution
+  * [Computer Vision: part 1](lectures/Computer_vision_part1.pdf): Point processing, Filters, Convolution
   * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)
   * Tools: Python: [OpenCV](https://opencv.org/)  
 12. Week 12
