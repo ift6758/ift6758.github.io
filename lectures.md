@@ -103,24 +103,25 @@ PDS = Python for Data Science
 - November 14
   * [Text mining (NLP): part 2](lectures/NLP_part2.pdf): Word embeddings, SVD, Word2Vec and GLoVe.
   * Reading: [Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), [GLoVe](https://nlp.stanford.edu/pubs/glove.pdf)
-  * [Computer Vision: part 1](lectures/Computer_vision_part1.pdf): Point processing, Filters, Convolution
+  * [Computer Vision: part 1](lectures/Computer_vision_part1.pdf): CV pipleline, Warping, Point processing, Filters
   * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)
   * Tools: Python: [OpenCV](https://opencv.org/)  
 12. Week 12
-- November 19
-  * Graph mining and Recommender systems
-  * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/), [GraphVite](https://graphvite.io/)
-- November 21
-  * Ensemble methods: bagging/boosting
-  * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
+  - November 19
+  * [Computer Vision: part 2]: Convolution and convolution Neural networks
+  *
+  - November 21
+  * Crash course to deep learning: Deep learning from A to Z
+  *
   
 13. Week 13
 - November 26
-  * Pattern mining, associate rule mining, Apriori algorithm and interpretable machine learning
-  * Tools: [Apyori](https://pypi.org/project/apyori/)
+  * Graph mining and Recommender systems
+  * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/), [GraphVite](https://graphvite.io/)
 - November 28
-  * Causal inference: prediction vs. causation
-  * Tools: 
+  * Ensemble methods: bagging/boosting
+  * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
+  
   
 14. Week 14
 - December 3
