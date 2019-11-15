@@ -1,3 +1,11 @@
+| [Home](../index.md) | [Lectures](../lectures.md) | [Labs](../labs.md) | [Assignments](../assignments.md) | [Project](../project.md)| [Contact](../contact.md) |
+
+
+# Scoreboard
+
+| [Evaluation1](evaluation1.md)| [Evaluation2](evaluation2.md)| [Evaluation3](evaluation3.md)| [Evaluation4](evaluation4.md)| [Evaluation5](evaluation5.md) | [Evaluation6](evaluation6.md) |
+
+
 ## Evaluation 6
 
 Date: November 11, 2019
