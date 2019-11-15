@@ -109,7 +109,7 @@ PDS = Python for Data Science
   
 12. Week 12
 - November 19
-  * [Computer Vision: part 2]: Convolution and convolution Neural networks
+  * [Computer Vision: part 2](lectures/Computer_vision_part2.pdf): Convolution and convolution Neural networks
   *
 - November 21
   * Crash course to deep learning: Deep learning from A to Z
