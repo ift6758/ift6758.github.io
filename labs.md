@@ -45,7 +45,8 @@
 9. Week 9
 
 10. Week 10
-
+- Natural Language Processing with NLTK
+  - [NLTK tutorial](https://github.com/hb20007/hands-on-nltk-tutorial)
 11. Week 11
 
 12. Week 12
