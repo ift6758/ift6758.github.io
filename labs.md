@@ -31,22 +31,24 @@
 ```
 5. Week 5 (September 30 -- October 6)
 - Introduction to Pandas, [notebook](https://colab.research.google.com/drive/1btGpyv7YmsvZ3bl40kn0IgtK_lLU3iV5)
-6. Week 6
+6. Week 6 (October 7 -- October 11)
 - Practical Data Science with Scikit-Learn, [High Dimension Demo](https://colab.research.google.com/drive/1tlTKRAB_nfo5FTib9aKKwglC-xy1yIM6), [MNIST Classification Demo](https://colab.research.google.com/drive/1a88XO9yJCfFaRnMt4j8Pj_ir2PvkQ793), [MNIST Generation Demo](https://colab.research.google.com/drive/1TOi2SQ9womT-B9mcRAFyIoGBkXFWvnW8), [IMDB Movie Reviews Classification Demo](https://colab.research.google.com/drive/1_enQLmCqONkHoshdcRHhnN46RbJ-TFEZ), [Slides](https://docs.google.com/presentation/d/14R7bleKsUPmFNXvJxsIYUAkaFMXFCV6yKUMd36BDesY/edit?usp=sharing).
-7. Week 7
+7. Week 7 (October 14 -- October 18)
 - Machine learning workflow and git workflow.
    - [dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
    - [notebook](https://colab.research.google.com/drive/1dyiLBwIoi3kjdgAy10nxDg4LhKD3MLvc)
    - [simple experiments](https://github.com/dmitriy-serdyuk/simple_experiment)
    - [git slides](https://docs.google.com/presentation/d/1ctFrxDJjsz0JaVfaOWSphSpB8nOfXfiHON3N-TuaRYQ/edit?usp=sharing)
    - [git simple guide](https://rogerdudler.github.io/git-guide/)
-8. Week 8
-
-9. Week 9
-
-10. Week 10
+8. Week 8 (October 21 -- October 25)
+- Reading week
+9. Week 9 (October 30 -- November 3)
+- Mid-term exam
+10. Week 10 (November 4 -- November 8)
+- Mid-term project presentation
+11. Week 11 (November 11 -- November 15)
 - Natural Language Processing with NLTK
   - [NLTK tutorial](https://github.com/hb20007/hands-on-nltk-tutorial)
-11. Week 11
+12. Week 12 (November 18 -- November 22)
 
-12. Week 12
+13. Week 13 (November 25 -- November 29)
