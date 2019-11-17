@@ -111,7 +111,7 @@ PDS = Python for Data Science
 - November 19
   * [Computer Vision: part 2](lectures/Computer_vision_part2.pdf): Convolution and convolution Neural networks
   * [Crash course to deep learning: part 1](lectures/deep_learning_part1.pdf)
-  * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), chapter6, chapter 9
+  * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), Chapter6 & chapter 9
 - November 21
   * [Crash course to deep learning: part 2](lectures/deep_learning_part1.pdf)
   * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), chapter 10
