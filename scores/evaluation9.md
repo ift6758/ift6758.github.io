@@ -8,9 +8,9 @@
 
 | [Evaluation6](evaluation6.md) | [Evaluation7](evaluation7.md)| [Evaluation8](evaluation8.md)| [Evaluation9](evaluation9.md)| [Evaluation10](evaluation10.md) | 
 
-## December 2
+## Evaluation 9
 
-Date: November 18, 2019
+Date: December 2, 2019
 
 Numbers marked in **bold** are the best score of the task for this evaluation compared to other teams and the baseline.
 
