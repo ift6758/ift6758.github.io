@@ -124,11 +124,9 @@ PDS = Python for Data Science
   * Ensemble methods: bagging/boosting
   * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
   
-  
 14. Week 14
 - December 3
   * project presentation
-  *
 
 15. Week 15
 - December 10
