@@ -41,7 +41,7 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Project: Mid-term presentation [[english](assignments/Assignment_4(EN).pdf), french]
   
 - Assingment 3, due **November 26**
-  * Algorithmic discrimination, Natural language processing, Computer vision (basics)
+  * Algorithmic discrimination, Natural language processing, and Computer vision (basics)
   * problem set [[english](https://colab.research.google.com/drive/1qxeHbFGOIvyYrtutow7B0VPFrABiIOD5)]
   * [Data](assignments/assignment_3(data).zip)
   
