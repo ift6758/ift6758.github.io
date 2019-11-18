@@ -42,8 +42,9 @@ Due to multiple requests, we extend the deadline for both survuys:
   
 - Assingment 3, due **November 26**
   * Algorithmic discrimination, Natural language processing, Computer vision (basics)
-  * [Excercises](https://colab.research.google.com/drive/1qxeHbFGOIvyYrtutow7B0VPFrABiIOD5)
-
+  * problem set [english](https://colab.research.google.com/drive/1qxeHbFGOIvyYrtutow7B0VPFrABiIOD5)
+  * [data](assignments/assignment_3(data).zip)
+  
 - Assingment 4, due **December 4**
   * Graph mining
   * Ensemble methods
