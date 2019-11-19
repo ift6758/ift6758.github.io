@@ -110,11 +110,11 @@ PDS = Python for Data Science
 12. Week 12
 - November 19
   * [Computer Vision: part 2](lectures/Computer_vision_part2.pdf): Convolution and convolution Neural networks
-  * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf), Chapters 3.1.1, 3.2, 3.6.1, [Filtering, Convolution, Correlation](https://courses.cs.washington.edu/courses/cse576/book/ch5.pdf)
+  * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf), Chapters 3.1.1, 3.2, 3.6.1, [Filtering, Convolution, Correlation](https://courses.cs.washington.edu/courses/cse576/book/ch5.pdf), Chapter 5
 - November 21
   * [Crash course to deep learning](lectures/deep_learning.pdf)
   * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), Chapter6 & Chapter 9 & chapter 10
- * [ConvNet notes](http://cs231n.github.io/convolutional-networks/)
+  * [ConvNet notes](http://cs231n.github.io/convolutional-networks/)
   
 13. Week 13
 - November 26
