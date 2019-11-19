@@ -115,6 +115,7 @@ PDS = Python for Data Science
   * [Crash course to deep learning](lectures/deep_learning.pdf)
   * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), Chapter6 & Chapter 9 & chapter 10
   * [ConvNet notes](http://cs231n.github.io/convolutional-networks/)
+  * Tools: [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/), [Pytorch](https://pytorch.org/)
   
 13. Week 13
 - November 26
