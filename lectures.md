@@ -104,7 +104,7 @@ PDS = Python for Data Science
   * [Text mining (NLP): part 2](lectures/NLP_part2.pdf): Word embeddings, SVD, Word2Vec and GLoVe.
   * Reading: [Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), [GLoVe](https://nlp.stanford.edu/pubs/glove.pdf)
   * [Computer Vision: part 1](lectures/Computer_vision_part1.pdf): CV pipleline, Warping, Point processing, Filters
-  * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski], (http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf), Chapters 3.1.1, 3.2, 3.6.1
+  * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf), Chapters 3.1.1, 3.2, 3.6.1
   * Tools: Python: [OpenCV](https://opencv.org/) 
   
 12. Week 12
@@ -113,7 +113,7 @@ PDS = Python for Data Science
   * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf), Chapters 3.1.1, 3.2, 3.6.1, [Filtering, Convolution, Correlation](https://courses.cs.washington.edu/courses/cse576/book/ch5.pdf), Chapter 5
 - November 21
   * [Crash course to deep learning](lectures/deep_learning.pdf)
-  * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), Chapter6 & Chapter 9 & chapter 10
+  * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), Chapter 6, 9, 10
   * [ConvNet notes](http://cs231n.github.io/convolutional-networks/)
   * Tools: [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/), [Pytorch](https://pytorch.org/)
   
