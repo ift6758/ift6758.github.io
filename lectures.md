@@ -119,7 +119,7 @@ PDS = Python for Data Science
   
 13. Week 13
 - November 26
-  * Graph mining and Recommender systems
+  * Graph ML and Recommender systems
   * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/), [GraphVite](https://graphvite.io/)
 - November 28
   * Ensemble methods: bagging/boosting
