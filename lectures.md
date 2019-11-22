@@ -122,7 +122,7 @@ PDS = Python for Data Science
   * Graph ML and Recommender systems
   * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/), [GraphVite](https://graphvite.io/)
 - November 28
-  * Ensemble methods: bagging/boosting
+  * Funsion: Data fusion and Model fusiuon and Ensemble methods
   * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
   
 14. Week 14
