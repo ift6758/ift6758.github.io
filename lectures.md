@@ -129,7 +129,7 @@ PDS = Python for Data Science
   
 14. Week 14
 - December 3
-  * project presentation
+  * Final project presentation
 
 15. Week 15
 - December 10
