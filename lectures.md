@@ -109,10 +109,10 @@ PDS = Python for Data Science
   
 12. Week 12
 - November 19
-  * [Computer Vision: part 2](lectures/Computer_vision_part2.pdf): Convolution and convolution Neural networks
+  * [Computer Vision: part 2](lectures/Computer_vision_part2.pdf): Convolution 
   * Reading: [Computer Vision:Algorithms and Applications, Richard Szeliski](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf), Chapters 3.1.1, 3.2, 3.6.1, [Filtering, Convolution, Correlation](https://courses.cs.washington.edu/courses/cse576/book/ch5.pdf), Chapter 5
 - November 21
-  * [Crash course to deep learning](lectures/deep_learning.pdf)
+  * [Crash course to deep learning](lectures/deep_learning.pdf): Perceptrons, Neural networks, Convolution Neural networks, Recurrent Neural Network and LSTM
   * Reading: [Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://deeplearning.cs.cmu.edu/document/reading/book1.zip), Chapter 6, 9, 10
   * [ConvNet notes](http://cs231n.github.io/convolutional-networks/)
   * Tools: [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/), [Pytorch](https://pytorch.org/)
