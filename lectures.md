@@ -119,10 +119,12 @@ PDS = Python for Data Science
   
 13. Week 13
 - November 26
-  * Graph ML and Recommender systems
+  * [Graph ML: part 1](lectures/graph_learning_part1.pdf): node embeddings: adjajency matrix,matrix factorization, multi-hop embedding, random walk embeddings, and node2vec
   * Reading: [Representation learning on graphs](https://arxiv.org/abs/1709.05584)
-  * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/), [GraphVite](https://graphvite.io/)
+  * Tools: Python: [igraph](https://igraph.org/redirect.html), [NetworkX](https://networkx.github.io/)
+  * Tool: embedding tools: [node2vec](https://snap.stanford.edu/node2vec/), [deepwalk](https://github.com/phanein/deepwalk), [GraphVite](https://graphvite.io/)
 - November 28
+  * [Graph ML: part 2](lectures/graph_learning_part2.pdf): Graph neural networks, and Graph convolutional networks
   * Fusion part 1: Data fusion and multimodal machine learning
   * Fusion part 2: Model fusion and ensemble methods
   * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
