@@ -45,8 +45,9 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Problem Set exercises: [[english](https://colab.research.google.com/drive/1qxeHbFGOIvyYrtutow7B0VPFrABiIOD5)]
   * Problem Set data: [Data](assignments/assignment_3(data).zip)
   
-- Assingment 4, due **December 5**
-  * Deep learning, Graph mining, and Ensemble methods
+- Assingment 4, due **December 7**
+  * Deep learning, and Graph learning
+  * Problem Set exercises: [[english]()]
 
 - Project: final presentation, due **December 2**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team). Please note that to get a full grade the score of your software on the scoreboard (Evaluation #10: **December 9**) should beat the baseline for all tasks.
   * Project: Final presentation [[english](assignments/final_presentation.pdf), french]
