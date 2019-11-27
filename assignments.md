@@ -50,7 +50,7 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Problem Set exercises: [[english]()]
 
 - Project: final presentation, due **December 2**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team). Please note that to get a full grade the score of your software on the scoreboard (Evaluation #10: **December 9**) should beat the baseline for all tasks.
-  * Project: Final presentation [[english](assignments/final_presentation.pdf), french]
+  * Project: Final presentation [[english](assignments/final_presenation.pdf), french]
 
 - Project: Group report, due **December 23**
 
