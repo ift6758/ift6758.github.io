@@ -40,7 +40,7 @@ Due to multiple requests, we extend the deadline for both survuys:
 - Project: mid-term presentation, due **November 4**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team). Please note that to get a full grade the score of your software on the scoreboard (Evaluation #5: **November 4**) should beat the baseline for at-least one of the tasks.
   * Project: Mid-term presentation [[english](assignments/Assignment_4(EN).pdf), french]
   
-- Assingment 3, due **November 28**
+- Assingment 3, due **November 28** (with 2 extra days for late submissions)
   * Algorithmic discrimination, Natural language processing, and Computer vision (basics)
   * Problem Set exercises: [[english](https://colab.research.google.com/drive/1qxeHbFGOIvyYrtutow7B0VPFrABiIOD5)]
   * Problem Set data: [Data](assignments/assignment_3(data).zip)
