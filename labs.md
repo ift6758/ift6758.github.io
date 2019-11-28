@@ -60,3 +60,6 @@
   - Live Demo Code Coming Soon!
 
 13. Week 13 (November 25 -- November 29)
+    - [Basic tutorial](https://colab.research.google.com/drive/1aqaq6aVMJ6WqzU83mnUQzN_8u7fWpcqG)
+    - [MNIST Example](https://colab.research.google.com/drive/1qdR127F2IZAvaWSyy2LEsH_lHHBkbYrV)
+    - [CNN Example](https://colab.research.google.com/drive/1e1kV0jQO_kW0UygFGQpYMXxXtBzm3jle)
