@@ -57,7 +57,7 @@
 12. Week 12 (November 18 -- November 22)
 - Computer Vision and OpenCV Lab
   - [Slides](https://docs.google.com/presentation/d/1mLGRrJihVaJlgWgv6UpGUHWzhF3McdQdRJVcydir-O8/edit?usp=sharing)
-  - Live Demo Code Coming Soon!
+  - [Live Demo Code & Files](https://github.com/ift6758/ift6758.github.io/tree/master/lab_materials/Lab_OpenCV)
 
 13. Week 13 (November 25 -- November 29)
     - [Basic tutorial](https://colab.research.google.com/drive/1aqaq6aVMJ6WqzU83mnUQzN_8u7fWpcqG)
