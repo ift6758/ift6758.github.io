@@ -126,7 +126,7 @@ PDS = Python for Data Science
 - November 28
   * [Graph ML: part 2](lectures/graph_learning_part2.pdf): Graph neural networks, and Graph convolutional networks
   * [Multimodal Learning](lectures/multimodal_learning.pdf): Multimodal machine learning, Multimodal Representation, Fusion
-  * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
+  * Tools: [Deep autoencoders in Keras](https://medium.com/datadriveninvestor/deep-autoencoder-using-keras-b77cd3e8be95), [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
   * Reading: [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406)
   
 14. Week 14
