@@ -125,9 +125,9 @@ PDS = Python for Data Science
   * Tool: embedding tools: [node2vec](https://snap.stanford.edu/node2vec/), [deepwalk](https://github.com/phanein/deepwalk), [GraphVite](https://graphvite.io/)
 - November 28
   * [Graph ML: part 2](lectures/graph_learning_part2.pdf): Graph neural networks, and Graph convolutional networks
-  * Fusion part 1: Data fusion and multimodal machine learning
-  * Fusion part 2: Model fusion and ensemble methods
+  * [Multimodal Learning](lectures/multimodal_learning.pdf): Multimodal machine learning, Multimodal Representation, Fusion
   * Tools: [Ensemble methods: scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)
+  * Reading: [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406)
   
 14. Week 14
 - December 3
