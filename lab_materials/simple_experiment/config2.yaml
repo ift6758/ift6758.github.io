@@ -1,0 +1,5 @@
+model:
+  type: logistic
+  args:
+    penalty: l2
+    max_iter: 1000

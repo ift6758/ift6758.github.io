@@ -1,5 +1,4 @@
-
-| [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
+| [Home](index.md) | [Lectures](lectures.md) | [Labs](labs.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
 
 ## Getting Help
 
@@ -9,17 +8,31 @@ Exclusively in the event that you have a question of a sensitive, personal natur
 
 ## Instructors
 
-- [Golnoosh Farnadi](https://gfarnadi.github.io/)
+- [Golnoosh Farnadi](https://gfarnadi.github.io/) (Speaks English)
 
-- [Kris Sankaran](http://krisrs1128.github.io/personal-site/) 
+office hour: Thursday 12h - 13h30
+
+- [Kris Sankaran](http://krisrs1128.github.io/personal-site/)  (Speaks English)
+
+office hour: Wednesday 16h30 - 18h
 
  
 ## Teaching Assistants
  
-- Dmitriy Serdyuk 
+- Dmitriy Serdyuk (Speaks English)
+
+office hour: Tuesday 14h30 - 16h
+
+- Arian Hosseini (Speaks English)
+
+office hour: Monday 9h - 10h30
  
-- Arian Hosseini
+- Pravish Sainath (Speaks French & English)
+
+office hour: Thursday 13h30 - 15h  
+                 
+- Bowen Peng (Speaks French & English)
+
+office hour: Monday 13h30 - 15h
  
-- Pravish Sainath
- 
- 
+All office hours will be held at local **AA-3248** in Pavillon André-Aisenstadt (DIRO).

@@ -1,5 +1,4 @@
-
-| [Home](index.md) | [Lectures](lectures.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
+| [Home](index.md) | [Lectures](lectures.md) | [Labs](labs.md) | [Assignments](assignments.md) | [Project](project.md)| [Contact](contact.md) |
 
 ## Course Description
 
@@ -15,6 +14,20 @@ The material of the course will integrate the five key facets of an investigatio
 
 In this course, we focus on statistical methods and introduce techniques in different domains to make you familiar with various type of data. Our goal is to educate you to become  not only knowledgable but also responsible data scientist by the end of this course!
 
+
+## Feedback
+
+Please use this [form](https://forms.gle/K43RxbasVvviWaNbA) to provide feedback about the course.
+
+## Announcements
+
+- There is no lab/class on Tuesday October 29.
+- Mid-term exam will be based on the content covered in the class: week 0 till the end of week 6 (the feature selection slides that are covered in the class are: slides 1 - 17 and 30 - 59). The exam will not have any questions from the guest lectures of week 7. Note that the exam will be closed book. No cheat sheet or computer is allowed during the exam.
+- Mid-term project presentation will take place on Tuesday November 5. All the expectations for the project have been posted to the [project](project.md) page.
+- Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
+- Check the weekly evaluations of the project on the [scoreboard](scoreboard.md) page.
+- If you have personal issues with the mid-term and final exam dates, send us an email.
+
 ## Room & Time
 
 ### Theory
@@ -25,7 +38,7 @@ In this course, we focus on statistical methods and introduce techniques in diff
 
 ### Labs
 
-- Tuesday, 12:30PM-14:30PM, X-115 Pavillon Roger-Gaudry, Université de Montréal
+- Tuesday, 12:30AM-14:30PM, X-115 Pavillon Roger-Gaudry, Université de Montréal
 
 ## Prerequisites
 
@@ -35,10 +48,12 @@ Basic knowledge of statistics, and Python programming is encouraged.
 
 Your final score for the course will be computed using the following weights:
 
-- Project counts:**35%** 
+- Project: **35%** 
 - Assignments: **25%** 
 - Mid-term: **15%**
-- Final:**25%** 
+- Final: **25%** 
+
+ATTENTION regarding fraud and plagiarism: The University of Montreal now has a strict policy in case of fraud or plagiarism. If an infraction is found, the professor is required to report to the director of the department. An administrative procedure is then automatically triggered with the following consequences: the offense is noted in your file, and a sanction is decided (which can be serious and go to dismissal in case of recidivism). It is important that you do the work yourself!
 
 ## Reading 
 
