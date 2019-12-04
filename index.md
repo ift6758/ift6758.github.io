@@ -21,9 +21,10 @@ Please use this [form](https://forms.gle/K43RxbasVvviWaNbA) to provide feedback 
 
 ## Announcements
 
-- There is no lab/class on Tuesday October 29.
-- Mid-term exam will be based on the content covered in the class: week 0 till the end of week 6 (the feature selection slides that are covered in the class are: slides 1 - 17 and 30 - 59). The exam will not have any questions from the guest lectures of week 7. Note that the exam will be closed book. No cheat sheet or computer is allowed during the exam.
-- Mid-term project presentation will take place on Tuesday November 5. All the expectations for the project have been posted to the [project](project.md) page.
+- **Thursday presentations (December 5) will take place at G-615 and G-815 from 15:30 - 18:30**
+- Thursday presentation order: (User26, User07, User09, User01, User27, User13, User16, User11, User21, User23, User28, User29, User15, User25)
+- Tuesday presentation order: (User22, User12, User14, User05, User02, User18, User06, User17, User04, User08, User30, User06)
+- Finall exam will be based on the content covered in the class: week 0 till the end of week 6 (the feature selection slides that are covered in the class are: slides 1 - 17 and 30 - 59). The exam will not have any questions from the guest lectures of week 7. Note that the exam will be closed book. No cheat sheet or computer is allowed during the exam.
 - Expectations for homework submissions have been posted to the [assignments](assignments.md) page.
 - Check the weekly evaluations of the project on the [scoreboard](scoreboard.md) page.
 - If you have personal issues with the mid-term and final exam dates, send us an email.
