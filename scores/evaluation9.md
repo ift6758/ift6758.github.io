@@ -14,7 +14,6 @@ Date: December 2, 2019
 
 Numbers marked in **bold** are the best score of the task for this evaluation compared to other teams and the baseline.
 
-
 |       | Age (ACC) | Gender (ACC) | OPN (RMSE) | NEU (RMSE) | EXT (RMSE) | AGR (RMSE) | CON (RMSE) | Full Grade |  Rank 🏆|
 |-------|--------------|----------:|------------|------------|------------|------------|------------|------------|-------|
 | Baseline|0.594|0.591|0.652|0.798|0.788|0.665|0.734|-||
@@ -34,7 +33,7 @@ Numbers marked in **bold** are the best score of the task for this evaluation co
 | User16 |0.607|0.870|0.640|0.791|0.783|0.653|0.714|✅||
 | User17 |0.627|0.569|0.643|0.793|0.780|0.656|0.717|||
 | User18 |0.628|0.812|0.656|0.790|0.782|0.864|0.957|||
-| User21 |-|-|-|-|-|-|-|-|-|
+| User21 |0.691|0.871|0.672|0.833|0.830|0.691|0.761|||
 | User22 |0.656|0.870|0.651|0.794|0.783|0.657|0.722|✅||
 | User23 |0.621|0.827|0.652|0.787|0.774|0.654|0.708|||
 | User25 |0.679|0.881|0.640|0.789|0.785|0.648|0.721|✅||
