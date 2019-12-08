@@ -30,7 +30,7 @@ The project counts for 35% of your final grade.  The project will be graded out 
 
 - Final in-class presentation on week 15 (December 3):  10 points.  This is a group presentation, with slides.  All teammembers should present.  Students who do not present can not get credit for this part.  We will decide at random at the beginning of the lecture on the last weel which teams will present. 
 
-**Requirements: Give an overview of the prediction task, and present statistical analysis of the data using visualization tools. Present the method that you use for each data source/task. You need to use all three sources in your software. Provide an overview of the prediction results you obtained by applying the machine learning methods on the public trainset. Note that your score on the scoreboard (Evaluation #10: December 9) should atleast beat the baseline for all three tasks.**
+**Requirements: Give an overview of the prediction task, and present statistical analysis of the data using visualization tools. Present the method that you use for each data source/task. You need to use all three sources in your software. Provide an overview of the prediction results you obtained by applying the machine learning methods on the public trainset. Note that your score on the scoreboard (Evaluation #10: December 16) should atleast beat the baseline for all three tasks.**
 
 - Code and documentation on week 15 (December 23):  8 points . This is evaluated based in the readability of the code and all teammembers need to answer coding questions at the final presentation regarding their software to get credit for this part.
 
