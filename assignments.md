@@ -49,7 +49,7 @@ Due to multiple requests, we extend the deadline for both survuys:
   * Deep learning, and Graph learning
   * Problem Set exercises: [[english](https://colab.research.google.com/drive/1ITHv7Q_PLj54kkSSgF_ynX7gwnjH-PHE#scrollTo=HzOxCc2oz1XK)]
 
-- Project: final presentation, due **December 2**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team). Please note that to get a full grade the score of your software on the scoreboard (Evaluation #10: **December 9**) should beat the baseline for all tasks.
+- Project: final presentation, due **December 2**. Upload the PDF of your slides to your gradescope account (by the head of each team, i.e., one presentation per each team). Please note that to get a full grade the score of your software on the scoreboard (Evaluation #10: **December 16**) should beat the baseline for all tasks.
   * Project: Final presentation [[english](assignments/final_presenation.pdf), french]
 
 - Project: Group report, due **December 23** Upload the PDF of your report to your gradescope account (by the head of each team, i.e., one report per each team). To get a full grade you need to submit the final, stable and readable version of your software with its documentation on the server.
