@@ -10,7 +10,7 @@
 
 ## Evaluation 10
 
-Date: December 9, 2019
+Date: December 16, 2019
 
 Numbers marked in **bold** are the best score of the task for this evaluation compared to other teams and the baseline.
 
