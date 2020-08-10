@@ -34,7 +34,7 @@ PDS = Python for Data Science
   * Optional reading: ISLR 8.3.1, 8.3.2
   * Notebooks: [Regression](https://colab.research.google.com/drive/1Ro8Jp975pBuW5DdljGmqXfMqSESFzfdY), [knn + logistic regression](https://colab.research.google.com/drive/1ZyUp1v7oaN8z0qk4Y-F_Dxz1TkBRFlNh), and [trees](https://colab.research.google.com/drive/1tv6npC_FnojKAo89zAHBWQColjYKQ-rd)
 - September 19
-  * [Unsupervised Learning Algorithms](https://observablehq.com/@krisrs1128/unsupervised-learning)
+  * [Unsupervised Learning Algorithms](https://observablehq.com/@jhelum-ch/unsupervised-learning)
   * Reading: ISLR 10.1, 10.2, PDS pg. 462 - 476
   * Optional Reading: ISLR 10.3
 
