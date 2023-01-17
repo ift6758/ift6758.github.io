@@ -11,6 +11,7 @@
   - [Beginner's guide to Python](https://wiki.python.org/moin/BeginnersGuide)
   - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
   - [Style guide for Python code (PEP8)](https://www.python.org/dev/peps/pep-0008/)
+  - [Python Programming Tutorial](https://www.scaler.com/topics/python/)
   - IDE's (Interactive development environments):
     1. [PyCharm](https://www.jetbrains.com/pycharm/)
        Community edition is free and free licences for students available
